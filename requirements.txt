@@ -1,0 +1,9 @@
+sentence-transformers
+scikit-learn
+numpy
+pdfplumber
+torch
+transformers
+tokenizers
+nltk
+ollama
