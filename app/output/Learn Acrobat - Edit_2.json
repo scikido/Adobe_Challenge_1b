@@ -1,0 +1,159 @@
+{
+  "title": "Rotate, move, delete, extract, or renumber  pages in a PDF  ",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Export PDF images to another format ",
+      "page": 0,
+      "top": 400.9,
+      "sub_content": "You can save every page (all text, images, and vector objects on a page) to an image format.\nConvertExport PDF To  Image format\nChoose  > > > [Image Type]. You can also export each\nimage in a PDF to a separate image file."
+    },
+    {
+      "level": "H1",
+      "text": "Rotate pages in a PDF ",
+      "page": 2,
+      "top": 154.6,
+      "sub_content": "You can rotate all or select pages in a document. Rotation is based on 90-degree increments.\nPage Thumbnails\nYou can rotate pages using the rotate tools in the  pane or\nRotate\nthe option.\nAll toolsOrganize pages.\n1.Open the PDF in Acrobat, choose  >\n2.From the left pane, specify the page range on which you want to apply the rotation.\nPAGES SELECTED\nSelect the drop-down menu under , then select the appropriate\noption. Alternatively, you can enter the page number you want to operate on.\n3.After specifying the page range, for Direction, select either Rotate page left for\ncounterclockwise 90° rotation or Rotate page right° for clockwise 90° rotation.\n4.You can also apply the page rotation on a specific page by selecting the buttons in the\nright pane.\nNote:\nTo temporarily change your view of the page, from the hamburger menu  (Windows)\nViewViewRotate viewRotate view rightRotate view\nor the  menu (macOS), choose  >  >  or\nleft\n. The original page orientation is restored the next time you open the PDF."
+    },
+    {
+      "level": "title",
+      "text": "Extract pages from a PDF ",
+      "page": 3,
+      "top": 77.6,
+      "sub_content": "Extraction\nis reusing selected pages of one PDF in a different PDF. Extracted pages include the\ncontent and the form fields, comments, and links of the original document.\nYou can leave the extracted pages in the original document or remove them during\nextraction.\nNote:\nAny bookmarks or article threadings associated with pages aren't extracted.\nAll ToolsOrganize pages.\n1.Open the PDF in Acrobat. From the upper left, select  >\n2.Specify the page range or the pages you want to extract. Select the drop-down menu\nPAGES SELECTED\nunder , then select the appropriate option. Alternatively, you can\nenter the page number you want to operate on.\nExtract pages PAGE OPTIONS\n3.Select  under .\nExtract\n4.In the dialog, select one or more of the following before you select :\nDelete\nTo remove the extracted pages from the original document, select\n•\npages after extracting\n.\nExtract pages as\nTo create a single-page PDF for each extracted page, select\n•\nseparate files\n.\nTo keep the original pages intact and create a single PDF for the extracted\n•\npages, deselect both options.\nThe extracted pages are placed in a new document.\nNote:\nThe creator of a PDF document can set the security to prevent the extraction of pages.\nDocument properties\nTo view the security settings for a document, choose  from the\nFile Security\nhamburger menu  (Windows) or menu in macOS and then select the  tab in\nthe dialog."
+    },
+    {
+      "level": "H1",
+      "text": "Extract random pages from a PDF ",
+      "page": 3,
+      "top": 589.3,
+      "sub_content": "You can also select and extract discontinuous pages from the page thumbnails in the right\nnavigation pane of Acrobat.\nAll ToolsOrganize pages.\n1.Open the PDF in Acrobat. From the upper left, select  >\n2.Specify the pages which you want to extract separated with a comma. For example, if\nyou want to extract pages 3 and 5, enter 3, 5 in the pages field under PAGES\nSELECTED.\nExtract pages PAGE OPTIONS\nSelect the  under .\nExtract\n3.In the dialog, select one or more of the following before you select :\nDelete\nTo remove the extracted pages from the original document, select\n•\npages after extracting\n.\nExtract pages as\nTo create a single-page PDF for each extracted page, select\n•\nseparate files\n.\nTo keep the original pages intact and create a single PDF for the extracted\n•\npages, deselect both options.\nThe extracted pages are placed in a new document."
+    },
+    {
+      "level": "title",
+      "text": "Split PDFs into multiple documents ",
+      "page": 5,
+      "top": 93.3,
+      "sub_content": "You can split one or more PDFs into multiple smaller PDFs. When splitting a PDF, you can\nspecify the split by the maximum number of pages, maximum file size, or top-level\nbookmarks.\nAll ToolsOrganize pages.\n1.Open the PDF in Acrobat. From the upper left, select  >\nPAGE OPTIONSSplit.\n2.In the left pane, under , select A command dialog appears for\nthe Split operation.\nSplit By\n3.In the  list, select the criteria for dividing the document:\nNumber of pages\nSpecify the maximum number of pages for each document in the split.\nFile Size\nSpecify the maximum file size for each document in the split.\nTop-level Bookmarks\nIf the document includes bookmarks, it creates one document for every top-level\nbookmark.\nOutput\n4.To specify a target folder for the split files and filename preferences, select\nOptionsOK\n. Specify the options as needed, and then select .\nSplit\n5.Select ."
+    },
+    {
+      "level": "H1",
+      "text": "Split multiple PDFs ",
+      "page": 5,
+      "top": 536.2,
+      "sub_content": "All ToolsOrganize pages.\n1.Open the PDF in Acrobat. From the upper left, select  >\nPAGE OPTIONSSplit.\n2.In the left pane, under , select A command dialog appears for\nthe Split operation.\nSplit by\n3.In the  list, select the criteria for dividing the document:\nNumber of pages\nSpecify the maximum number of pages for each document in the split.\nFile Size\nSpecify the maximum file size for each document in the split.\nTop-level Bookmarks\nIf the document includes bookmarks, it creates one document for every top-level\nbookmark.\nOutput\n4.To specify a target folder for the split files and filename preferences, select\nOptionsOK\n. Specify the options as needed, and then select .\nSplit multiple filesAdd FilesAdd Files, Add Folders\n5.Select . Select , and choose ,\nAdd Open FilesOKSplit\nor . Select the files or folder, and then select . Select ."
+    },
+    {
+      "level": "title",
+      "text": "Move or copy pages in a PDF ",
+      "page": 7,
+      "top": 77.6,
+      "sub_content": "To copy or move pages within a document, use the page thumbnails in the right navigation\npane or the document area. You can also transfer pages between documents using these\nthumbnails. In the Organize Pages view, drag and drop thumbnails to rearrange pages, or\nselect a thumbnail and copy it as needed."
+    },
+    {
+      "level": "H1",
+      "text": "Move or copy a page ",
+      "page": 7,
+      "top": 206.5,
+      "sub_content": "All toolsOrganize pages\n1.Open the PDF in Acrobat, and select  > . The page thumbnails\nare displayed in the Document area.\n2.Select one or more page thumbnails.\n3.Do one of the following:\nTo move a page, drag the corresponding page thumbnail to the new location.\n•\nA bar will appear to show the new position of the page thumbnail. The pages\nwill be renumbered.\nTo cut or copy a page, select the page, and then select the ellipsis icon  in the\n•\nCut Copy\ncontext menu bar displayed next to it. Select or  from the context\nmenu. Select between the page thumbnails where you want to paste the page.\nA blue horizontal marker shows the selected location where you want to paste.\nPaste\nSelect  from the context menu. You can paste the pages in another PDF as\nwell.\nNote:\nYou can also move or copy pages by selecting the Page Thumbnails  button from\nthe right pane."
+    },
+    {
+      "level": "H1",
+      "text": "Copy a page between two PDFs ",
+      "page": 7,
+      "top": 528.8,
+      "sub_content": "1.Open both PDFs and display them alongside each other.\nWindow\nTo display the PDFs side by side, select  from the hamburger\nWindowTile Vertically\nmenu  (Windows) or the  menu (macOS). Then select > .\nAll toolsOrganize pages\n2.Select  > . The page thumbnails are displayed in the\nDocument area.\n3.Select the page thumbnail of the page you want to cut or copy. To select multiple\npages, press Ctrl (Windows) or command (macOS) and then select the pages. From\nCopy\nthe page thumbnail context menu, select .\n4.In the page thumbnails of the target PDF, select between the page thumbnails where\nyou want to insert the page. A blue horizontal marker indicates the location where you\nPaste\nwant to paste. Right-select and choose .\nThe page is copied into the document, and the pages are renumbered. You can paste\nthe pages in another PDF as well. Alternatively, you can also drag the page thumbnail\nPage Thumbnails\ninto the  panel of the target PDF."
+    },
+    {
+      "level": "title",
+      "text": "Delete or replace pages in a PDF ",
+      "page": 9,
+      "top": 93.3,
+      "sub_content": "You can replace an entire PDF page with another PDF page. Only the text and images on the\noriginal page are replaced. Any interactive elements associated with the original page, such as\nlinks and bookmarks, aren't affected. Likewise, bookmarks and links that may have been\npreviously associated with the replacement page don't carry over. Comments, however, are\ncarried over and are combined with any existing comments in the document.\nReduce File Size\nAfter you delete or replace pages, it’s a good idea to use the  command to\nrename and save the restructured document to the smallest possible file size."
+    },
+    {
+      "level": "H1",
+      "text": "Delete multiple pages in a PDF ",
+      "page": 9,
+      "top": 538.9,
+      "sub_content": "Note:Delete\nYou can't undo the  command.\nAll toolsOrganize pages\n1.Select  > . The page thumbnails are displayed in the\nDocument area.\n2.Specify the page thumbnail of the pages you want to delete and separate them with a\ncomma. For example, if you want to delete pages 3 and 5, enter 3, 5 in the pages field\nPAGES SELECTED\nunder .  You can also choose from the options given in the drop-\ndown menu.\nDelete pagesOK\n3.In the left pane, select  , and the select  to confirm.\nYou can't delete all pages; at least one page must remain in the document.\nNote:Use Logical Page NumbersPage Display\nIf you select  in the  panel of\nPreferences\nthe  dialog box, you can enter a page number in parentheses to delete the\ncorresponding page. For example, if the first page in the document is numbered i, you can\nenter (1) in the Enter Page Range list, and the page is deleted."
+    },
+    {
+      "level": "H1",
+      "text": "Delete a page in a PDF ",
+      "page": 10,
+      "top": 200.0,
+      "sub_content": "All toolsOrganize pages\n1.Select  > . The page thumbnails are displayed in the\nDocument area.\n2.Select a page thumbnail of the page you want to delete. Then, select Delete\npages from the contextual toolbar that appears next to the selected page\nthumbnail."
+    },
+    {
+      "level": "H1",
+      "text": "Replace pages in a PDF ",
+      "page": 10,
+      "top": 338.6,
+      "sub_content": "1.Open the PDF that contains the pages you want to replace.\nAll toolsOrganize pages\n2.Select  > . The page thumbnails are displayed in the\nDocument area.\nReplace\n3.In the left tools pane, select . The file explorer window appears.\n4.Select the document containing the replacement pages.\nReplace PagesOriginal\n5.In the  dialog box, under , enter the pages to be replaced in the\noriginal document.\nReplace PagesReplacement\n6.In the  dialog box, under , enter the first page of the\nreplacement page range. The last page is calculated based on the number of pages to\nbe replaced in the original document.\nOK\n7.Select ."
+    },
+    {
+      "level": "H1",
+      "text": "Replace pages between multiple PDFs ",
+      "page": 10,
+      "top": 601.0,
+      "sub_content": "1.Open the PDF that contains the pages you want to replace, and then open the PDF\nthat contains the replacement pages.\nAll toolsOrganize pages\n2.Select  >  for both PDFs. The page thumbnails are displayed in\nthe Document area.\n3.In the PDF containing the replacement pages, select a page or group of pages you\nCtrl\nwant as replacements. For Windows, press and then select the pages; for MacOS,\nCommand\npress  and then select the pages.\nCtrl command\n4.Press (Windows) or  (macOS) and then drag the selected page\nthumbnails in the document area of the target document where thumbnails are\ndisplayed. Release the mouse button when the pointer is directly over the page\nnumber box of the page thumbnail you want to replace. The corresponding pages are\nhighlighted.\nThe pages you selected in the first document replace an equal number of pages in the\nsecond document. It starts at the page number that you selected to drop the new\npages."
+    },
+    {
+      "level": "title",
+      "text": "Renumber pages in a PDF ",
+      "page": 12,
+      "top": 93.3,
+      "sub_content": "The page numbers on the document pages don't always match the page numbers that appear\nPage Navigation\nbelow the page thumbnails and in the right  toolbar. Pages are numbered\nwith integers, starting with page 1 for the first page of the document. Because some PDFs may\ncontain front matter, such as a copyright page and table of contents, their body pages may\nPage Navigation\nnot follow the numbering shown in the right  toolbar.\nYou can specify various numbering styles for a group of pages, for example, 1, 2, 3, or i, ii, iii, or\na, b, c. You can also customize the numbering system by adding a prefix. For example, pages\nin Chapter 1 can be 1-1, 1-2, 1-3, and so on. Chapter 2 can have pages numbered as 2-1, 2-2, 2-3,\nand so on.\nNote:Number Pages\nUsing the  command affects only the page thumbnails on\nPages\nthe  panel. You can physically add new page numbers to a PDF using the headers and\nfooters feature.\nAll toolsOrganize pages > Page labels.\n1.Select  from the global bar. Then select\nSelectedPage Thumbnails\n2.Specify a page range. ( implies pages selected in the  panel.)\nOK\n3.Select one of the following, and then select :\nBegin New Section\n: Starts a new numbering sequence. Choose a style from the pop-up\nPrefix\nmenu, and enter a starting page number for the section. Specify a , if desired.\nExtend Numbering Used In Preceding Section To Selected Pages\n: Continues the numbering\nsequence from previous pages without interruption."
+    },
+    {
+      "level": "title",
+      "text": "Edit Scanned PDFs ",
+      "page": 13,
+      "top": 77.6,
+      "sub_content": "Editing a scanned PDF can be complicated if it includes low-quality text or images, non-\neditable text, line breaks, or complex formatting. Other inhibiting factors include compatibility\nissues, security restrictions, and large file sizes, which are more prevalent in PDFs created from\nscanned images.\nTo streamline the process, consider the following best practices and guidelines before editing"
+    },
+    {
+      "level": "H1",
+      "text": "Recognize text on scanned PDF ",
+      "page": 13,
+      "top": 645.0,
+      "sub_content": "You can use the Scan & OCR tool to recognize text, change OCR language, and make all\npages editable in one go. To do so:\nGet\n1.Open the scanned file, and then from the top banner that appears, select\nstarted\n.\nIt opens the Scan & OCR tool options in the left panel\nIn this file\n2.From the left panel, under Recognize text, select .\n3.In the dialog that opens, select the pages that you want to apply text\nrecognition for and the language.\nRecognize text\n4.Select ."
+    },
+    {
+      "level": "H2",
+      "text": "a scanned document: ",
+      "page": 13,
+      "top": 206.1,
+      "sub_content": "Check the accuracy of optical character recognition (OCR) output\n. When you open a\nscanned document, Acrobat automatically runs OCR in the background to make the\ndocument editable. Before editing, review the document to ensure that the content is\nScan & OCRRecognize\naccurate and complete. If necessary, rescan the document using the  >\nText\ntool to improve the output.\nEnhance image qualityEnhance\n. If the scanned PDF contains low-quality images, use the\nscanned fileEnhance camera image\nor  feature to improve the quality of images before\nattempting to edit the document. For more information, see Scan documents to PDF.\nUse the correct font and formatting\n. When editing the document, ensure that the font and\nformatting of the edited text match the original document as closely as possible. If you don't\nhave the desired fonts on your computer, see Add fonts to your computer.\nRemove security restrictions\n. If the scanned PDF has security restrictions that prevent editing,\nremove these restrictions before attempting to edit the document. To know how to remove\nsecurity from a PDF, see Unlock a PDF.\nAvoid editing complex elements\n. If the scanned PDF contains tables, graphs, or images,\navoid unnecessary edits that could alter the layout or formatting of these elements.\nCheck for compatibility issues\n. Ensure that the version of Adobe Acrobat you're using is\ncompatible with the scanned PDF. If you encounter compatibility issues, try updating Adobe\nAcrobat. For more information, see System requirements.\nSave a backup copy\n. Always save a backup copy of the original scanned PDF before making\nany edits. Revert to the original document if any issues arise during the editing process."
+    },
+    {
+      "level": "H1",
+      "text": "Edit a scanned document ",
+      "page": 14,
+      "top": 453.7,
+      "sub_content": "1.Open the scanned PDF file in Acrobat.\nEdit\n2.From the global bar in the upper left, select .\n3.Select the text element that you want to edit and start typing. The new text matches\nthe original font in your scanned PDF.\n4.From the upper-left corner, select the hamburger menu (Windows) or File\nSave as\n(macOS)>  and enter a new name for your document.\nInitially, the language is set to the default locale, and the other options are disabled. Any\nchanges to these settings are persisted and are applied when you edit the document."
+    },
+    {
+      "level": "title",
+      "text": "Enhance scanned file or camera images for ",
+      "page": 15,
+      "top": 77.6,
+      "sub_content": ""
+    },
+    {
+      "level": "title",
+      "text": "clear PDFs ",
+      "page": 15,
+      "top": 107.1,
+      "sub_content": "Enhance camera\nYou can capture document photos with your smartphone and use the\nimage\nfeature to create polished, clear, and compact PDFs without needing a standard\nscanner. This feature addresses common issues in mobile-captured images, such as incorrect\nperspectives, areas beyond boundaries, shadows, and inconsistent lighting. While it may not\neliminate all problems, it significantly improves the overall quality of your resulting PDF."
+    },
+    {
+      "level": "H1",
+      "text": "Enhance camera image ",
+      "page": 15,
+      "top": 223.9,
+      "sub_content": "1.Open the photograph or image of the document in Acrobat.\nAll toolsScan & OCR\n2.From the  menu, select .\nEnhance camera image\n3.From the left panel, select  and then from the dialog that\nEnhance\nopens, select .\n4.The image is enhanced and a PDF of the image is shown.\n5.(Optional) To further adjust the default enhancement level, drag the Adjust\nenhancement level slider in the secondary toolbar."
+    }
+  ]
+}

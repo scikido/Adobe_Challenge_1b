@@ -382,5 +382,5 @@ if __name__ == "__main__":
     output_dir = "./app/output"
     result = aggregate_relevant_sections(output_dir, job, persona, input_documents)
     
-    with open("output.json", "w", encoding="utf-8") as f:
+    with open("challenge1b_output.json", "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)

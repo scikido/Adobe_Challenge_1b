@@ -1,0 +1,243 @@
+{
+  "title": "Edit text in a PDF  ",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Set the default font for adding and editing text ",
+      "page": 2,
+      "top": 97.9,
+      "sub_content": "When you add text in a PDF, by default Acrobat chooses nearby font attributes for the new\ntext. When you edit text, any font that isn't available on the system is substituted by a default\nfall-back font for the particular script. For example, Minion Pro is the default fall-back font for\nRoman script fonts. The substitution of unavailable fonts by default fonts can introduce\ninconsistency in the look and feel of text in a PDF document. To avoid inconsistency, choose a\nspecific font for any text that is added or modified in the PDF document from Font\nOptions under Content Editing.\n1.From the hamburger menu  (Windows) or the Acrobat menu (macOS),\nPreferences\nchoose . The Preferences dialog box is displayed.\nCtrl+KCommand+K\n(Alternatively, you can press  keys on Windows® or  keys on\nmacOS.)\nContent Editing\n2.In the dialog box, select  under Categories to display Font Options.\n3.Select an appropriate font in the drop-down lists:\n1.Fallback font for Editing.\n2.Default font for Add Text and Font Size.\n4.Select OK to save the changes and close the Preferences dialog box."
+    },
+    {
+      "level": "H1",
+      "text": "Change, replace, or delete text ",
+      "page": 3,
+      "top": 75.7,
+      "sub_content": "When you edit text, the text in the paragraph reflows within its text box to accommodate the\nchanges. Each text box is independent, and inserting text in one text block doesn’t push down\nan adjacent text box or reflow to the next page.\nEdit\n1.Select  in the global bar.\n2.Select the text that you want to edit. The text-box turns blue upon selection, and a\nrotation handle appears at the top of the selected text-box.\n3.Edit the text by doing one of the following:\n1.Type new text to replace the selected text, or press Delete to remove it.\n2.To rotate the text box, use the rotation handle at the top of the selected text\nbox.\n3.Manage list items using the list controls (bulleted and numbered) in the left\nFormat panel. You can create lists and, conversely, convert a list item to a\nparagraph or change list types.\n4.Select a font, font size, or other formatting options in the left Format panel. You\ncan also try the advanced format options, such as line spacing, character\nspacing, horizontal scaling, stroke width, and color.\n4.Select any area outside the selection to deselect it, and start over."
+    },
+    {
+      "level": "H1",
+      "text": "Format text ",
+      "page": 4,
+      "top": 405.0,
+      "sub_content": "Edit\n1.Select  in the global bar.\n2.Select the text that you want to change.\nFormatText\n3.In the   section on the left panel, select a font, font size, bold, or other\nformatting options. You can also try the advanced format options, such as line spacing,\ncharacter spacing, horizontal scaling, stroke width, and color.\nFormatting options on the left pane\nBold\n: Bolds the text.\n•\nItalic\n: Makes the text italic.\n•\nUnderline\n: Underlines the text.\n•\nSuperscript\n: Converts the selected text into superscript.\n•\nSubscript\n: Converts the sleected text into subscript.\n•\n4.Select outside the selection to deselect it and start over."
+    },
+    {
+      "level": "H1",
+      "text": "Add new text ",
+      "page": 5,
+      "top": 538.8,
+      "sub_content": "You can add or insert new text into a PDF using any of the fonts installed on the system.\nEditTextAdd\n1.Select  in the global bar. Then, from the Edit panel, select  under\nContent\n.\n2.Drag to define the width of the text block that you want to add.\n3.The Add text tool intelligently detects the following text properties of text close to the\npoint of click:\nFont name, size, and color\n•\nCharacter, paragraph, and line spacing\n•\nHorizontal scaling\n•\nThese text properties are automatically applied to the text that you add at the point of click.\nFormat\nYou can change the text properties using the options under  in the left pane.\n4.Type the text.\n5.To resize the text box, drag a selection handle.\n6.To move the text box, place the pointer over the line of the bounding box (avoid the\nMove\nselection handles). When the cursor changes to pointer , drag the box to the\nnew location. To maintain alignment with the other list items, press Shift as you drag."
+    },
+    {
+      "level": "H1",
+      "text": "Move, rotate, or resize a text box ",
+      "page": 6,
+      "top": 323.7,
+      "sub_content": "Edit\nYou can move or rotate text boxes on a page. The  tool outlines each text box, so it's clear\nwhat text is affected. Edits are confined to the page. You can't drag a text block to another\npage, or move or rotate individual characters or words within a text box. However, you can\ncopy text boxes and paste them on another page.\nResizing a text box causes the text to reflow within the new text box boundaries. It doesn't\nchange the size of the text. As with other text edits, resizing is limited to the current page. Text\ndoesn't flow to the next page.\nEditTextAdd\n1.Select  in the global bar. Then, from the Edit panel, select  under\nContent\n.\n2.Select the text box that you want to move, rotate, or resize.\n3.Do any of the following:\nMove\n1.: Place the pointer over the line of the bounding box (avoid the selection\nMove\nhandles). When the cursor changes to  pointer , drag the box to the\ndesired location. Hold down the Shift key as you drag to constrain the\nmovement vertically or horizontally.\nRotateRotation\n2.: Click and hold the   pointer , drag in the direction you\nwant it to rotate.\nResize\n3.: Place the pointer over any of the circular selection handles, and drag\nthe handle to resize the text block."
+    },
+    {
+      "level": "H1",
+      "text": "Add or edit lists ",
+      "page": 8,
+      "top": 123.7,
+      "sub_content": "You can add items to a numbered or bulleted list, create list items, convert a paragraph to a\nlist item, and conversely. You can also change list types.\nEditTextAdd\n1.Select  in the global bar. Then, from the Edit panel, select  under\nContent\n.\n2.To add or remove items from a numbered or bulleted list:\n•\nNote: You can add or remove items to the list at all nested levels using the\nsame familiar controls that you use in Microsoft® Office. For example,\nEnterBackspace\npress  at the end of a list item to insert a new row. Press  to\nremove the new row and position the cursor back to the end of the previous\nlist item.\nTo create a numbered or bulleted list:\n1.Place the cursor in the document at the location where you want to add a list.\nFormat Text\n2.Choose the appropriate list type under .\nTo convert an existing paragraph to a list item:\nPlace the cursor in the paragraph, and then choose the appropriate list type\n•\nFormat Text\nunder .\nTo convert an existing list item to a paragraph:\nFormat Text\n1.Select all items in the list. The appropriate list type is highlighted under .\n2.Click the highlighted list type.\nTo convert from one list type to another:\n1.Place the cursor in the list item or select all items.\nFormat Text\n2.Choose the appropriate list type under ."
+    },
+    {
+      "level": "H1",
+      "text": "Change font color ",
+      "page": 8,
+      "top": 663.8,
+      "sub_content": "Edit\n1.Select  in the global bar.\n2.Select the text that you want to change.\nFormatText\n3.In the   section on the Edit panel, select Font color next to Font size.\nFor Windows\n4.: You see a color panel for Windows to choose the color you want. Select\nthe color you want your text to change into.\nFor macOS:\nYou see a Color dialog box with options to change the font color. You can\nselect the color you want and then close the dialog box to change the font color."
+    },
+    {
+      "level": "H1",
+      "text": "Change font ",
+      "page": 10,
+      "top": 75.7,
+      "sub_content": "EditTextAdd\n1.Select  in the global bar. Then, from the Edit panel, select  under\nContent\n.\n2.Select the text that you want to change.\nFormatText\n3.In the   section on the Edit panel, from the Font drop-down menu, select\nthe Font you want for the selected text."
+    },
+    {
+      "level": "H1",
+      "text": "Change font size ",
+      "page": 10,
+      "top": 245.9,
+      "sub_content": "EditTextAdd\n1.Select  in the global bar. Then, from the Edit panel, select  under\nContent\n.\n2.Select the text that you want to change.\nFormatText\n3.In the   section on the Edit panel, from the Font size menu, select the font\nsize you want for the selected text."
+    },
+    {
+      "level": "H1",
+      "text": "Redo text in Acrobat ",
+      "page": 10,
+      "top": 408.8,
+      "sub_content": "1.Open the PDF in which you want to redo the text.\nUndo, Redo &\n2.(Windows) Select the hamburger menu in the upper left. Then select\nmoreRedo\n> .\nUndo, Redo and More > Redo\n(macOS) Select Edit in the upper left. Then select ."
+    },
+    {
+      "level": "H1",
+      "text": "Undo text in Acrobat ",
+      "page": 10,
+      "top": 549.5,
+      "sub_content": "1.Open the PDF in which you want to redo the text.\nUndo, Redo &\n2.(Windows) Select the hamburger menu in the upper left. Then select\nmoreUndo\n> .\nUndo, Redo and More > Undo\n(macOS) Select Edit in the upper left. Then select ."
+    },
+    {
+      "level": "H1",
+      "text": "Change paragraph spacing ",
+      "page": 10,
+      "top": 690.2,
+      "sub_content": "You can change paragraph spacing in Acrobat using format text options:\nEdit\n1.Select  from the global bar in the upper left.\n2.Select the text for which you want to modify the paragraph spacing.\nParagraph spacing after\n3.From the FORMAT TEXT panel, select  drop-down menu and\nthen select the value to adjust spacing as needed."
+    },
+    {
+      "level": "title",
+      "text": "Edit images or objects in a PDF ",
+      "page": 12,
+      "top": 77.6,
+      "sub_content": ""
+    },
+    {
+      "level": "H1",
+      "text": "About editing text and images ",
+      "page": 12,
+      "top": 139.7,
+      "sub_content": "Adobe Acrobat provides powerful tools and capabilities for editing PDF images and text.\nYou might encounter formatting challenges that require manual adjustments. Acrobat's\nimage-editing capabilities are limited, and using high-resolution images can lead to\nperformance issues due to larger file sizes. To address this, improve images using other tools\nbefore adding them to PDF documents.\nIf the original font isn't available, font substitutions may occur, altering the text's appearance.\nTo maintain consistency across devices, we suggest you use the available fonts or embed\nthem within the PDF.\nYou can also enhance document accessibility using Acrobat's features, such as adding\nalternative text for images and proper content tagging.\nRefer to the following topics to learn how to add, resize, move, or replace images and objects\nin a PDF using Acrobat."
+    },
+    {
+      "level": "H1",
+      "text": "Add images in a PDF ",
+      "page": 12,
+      "top": 401.3,
+      "sub_content": "Edit a PDFAll tools\n1.Open the PDF in Acrobat. Select  from the menu and then\nImage\nselect .\nChoose image\n2.From the drop-down menu, select  to select an image from your device\nGenerate image\nor Select  to generate an image from text."
+    },
+    {
+      "level": "H2",
+      "text": "Note: ",
+      "page": 12,
+      "top": 672.3,
+      "sub_content": "To learn how to generate images from text, go to Generate unique AI images from text."
+    },
+    {
+      "level": "H2",
+      "text": "3.In the dialog, select the image file you want to insert. ",
+      "page": 13,
+      "top": 74.8,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "4.Select where you want to insert the image or select drag to resize it as you insert. ",
+      "page": 13,
+      "top": 97.0,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "A copy of the image file appears on the page, with the same resolution as the original ",
+      "page": 13,
+      "top": 119.3,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "file. ",
+      "page": 13,
+      "top": 134.1,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "5.Once the image is added, you can take any of the following actions: ",
+      "page": 13,
+      "top": 156.3,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "To move the image, hover over the image, press and hold the move icon, and ",
+      "page": 13,
+      "top": 178.6,
+      "sub_content": "•"
+    },
+    {
+      "level": "H2",
+      "text": "then drag the image to the desired location. ",
+      "page": 13,
+      "top": 193.3,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "To resize the image, select the image, hold the resize corner handles, and then ",
+      "page": 13,
+      "top": 212.6,
+      "sub_content": "•"
+    },
+    {
+      "level": "H2",
+      "text": "drag the handles in or out to reduce or enlarge the image size. ",
+      "page": 13,
+      "top": 227.4,
+      "sub_content": ""
+    },
+    {
+      "level": "H1",
+      "text": "Modify images in a PDF ",
+      "page": 13,
+      "top": 267.2,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "Edit ",
+      "page": 13,
+      "top": 293.6,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "To modify images in a PDF, select  from the global bar. Select the image you want to ",
+      "page": 13,
+      "top": 293.7,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "EditAdjust Objects ",
+      "page": 13,
+      "top": 308.4,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "modify, then from the  panel, under ,select one of the following tools: ",
+      "page": 13,
+      "top": 308.5,
+      "sub_content": "Flip Vertical: Flips the image vertically, on the horizontal axis.\n•\nFlip Horizontal: Flips the image horizontally, on the vertical axis.\n•\nRotate left: Rotates the selected image 90° in the counterclockwise direction.\n•\nRotate right: Rotates the selected image 90° in the clockwise direction.\n•\nCrop image: Crops or clips the selected image. Drag a selection handle to crop the image.\n•\nChoose image\nReplace image: From the drop-down menu, select  to select an image\n•\nGenerate image\nfrom your device or Select  to an image from text.\nAlign objects: To align multiple objects on a side - left, vertical center, right, top,\n•\nhorizontal, center, and bottom.\nWhen you align objects relative to each other by their edges, one of the objects remains\nstationary. For example, the left option aligns the left edges of the selected objects with the\nleftmost object.\nArrange objects: To move an image or object in front of or behind other elements. You\n•\ncan push an item forward or back on just one level. Alternatively, you can send it to the front\nor back of the stacking order of elements on the page."
+    },
+    {
+      "level": "H3",
+      "text": "Note: ",
+      "page": 13,
+      "top": 666.8,
+      "sub_content": "Place the pointer just outside a selection handle to rotate the selected image manually. When the\ncursor changes to the rotation pointer, drag in the direction you want it to turn."
+    },
+    {
+      "level": "H1",
+      "text": "Delete images from a PDF ",
+      "page": 14,
+      "top": 108.9,
+      "sub_content": "Edit\n1.Open the PDF document in Adobe Acrobat. Select  from the global bar.\n2.Select the image you want to delete, and a contextual menu opens. Select\nDelete  from the contextual menu.\nDelete\nAlternatively, you can also select the image and press ."
+    },
+    {
+      "level": "H1",
+      "text": "Add Objects to PDF ",
+      "page": 14,
+      "top": 483.4,
+      "sub_content": "All toolsEdit a PDF\n1.Open a PDF, and then from the  menu, select .\nMoreAdd Content\n.From the left panel, select  from under  to expand the menu and\nselect a desired tool.\n2.To add a button:\nButton\n1.From the left menu, select .\n2.Once the button coordinates appear, move the mouse to a desired location\nand place the button.\n3.In the dialog that appears, provide a name to the button.\n4.To change the properties of the button, double-click the button and then select\nin the dialog that appears, set the properties as desired.\n3.To add a video:\nVideo\n1.From the left menu, select .\n2.Drag your cursor on the document where you want to add the video.\n3.In the Insert Video dialog that appears, browse and select the video file that you\nwant to add.\nOK\n4.Select .\n4.To add sound to the PDF:\nSound\n1.From the left menu, select .\n2.Drag the cursor over the text or image that you want to add sound to.\nInsert Sound\n3.In the  dialog that appears, browse and select the audio file that\nyou want to add.\n4.Select OK.\n5.To add 3D Media to the video:\n3D Media\n1.From the left menu, select .\n2.Once the button coordinates appear, move the mouse to a desired location\nand place the button.\n3.In the dialog that appears, browse and select the file.\nOk\n4.Select ."
+    },
+    {
+      "level": "H1",
+      "text": "Edit an image outside Acrobat ",
+      "page": 15,
+      "top": 416.2,
+      "sub_content": "You can edit an image or graphic using another application, such as Photoshop, Illustrator, or\nMicrosoft® Paint. When you save the image or graphic, Acrobat automatically updates the PDF\nEdit using\nwith the changes. The applications that appear in the  menu depend upon what\nyou've installed and the type of image or graphic you've selected. Optionally, you can specify\nthe application you want to use.\nEdit\n1.Open the PDF in Acrobat, choose , and then select the image or object.\nNote:\nSelect multiple items if you want to edit them together in the same file. To edit all the\nSelect All\nimages and objects on the page, choose  from the context menu.\nAdjust ObjectsEdit using\n2.Under  in the Edit panel, select , and then choose an editor.\nOpen with\nTo choose a different editor than offered on the menu, select , find the app, and the app\nOpen\nand select .\nNote:Don’t Convert\nIf a message asks whether to convert to ICC profiles, choose . If the image\nwindow displays a checkerboard pattern when it opens, the image data couldn't be read."
+    }
+  ]
+}

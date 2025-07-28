@@ -1,0 +1,544 @@
+{
+  "title": "Export  ",
+  "outline": [
+    {
+      "level": "H2",
+      "text": "Save a PDF ",
+      "page": 1,
+      "top": 382.4,
+      "sub_content": "PDF Portfolios\nUse this method to save PDFs, including , and PDFs in which you have added\ncomments, form field entries, and digital signatures."
+    },
+    {
+      "level": "H3",
+      "text": "Note: ",
+      "page": 1,
+      "top": 454.7,
+      "sub_content": "Saving a digitally signed PDF invalidates the signature.\n1.Do one of the following:\nSave to computer\nTo save changes, select    from the upper right. Alternatively\n•\nSave\nyou can also select the hamburger menu  and select . For macOS,\nFile Save\nselect > .\nTo save a copy of a PDF in Windows, select the hamburger menu   and then\n•\nSave AsFile Save As\nselect . For macOS, select > .\nIn Acrobat Reader,\nfor Windows, select the hamburger menu   and then\n•\nSave AsFile Save asText\nselect> . For macOS, select >  .\nFileSave\nTo save a copy of a PDF Portfolio, select  >.\n•\nNote:\nIf you are viewing a PDF in a web browser, the Acrobat File menu is not available. Use the\nSave A Copy button in the Acrobat toolbar to save the PDF."
+    },
+    {
+      "level": "H1",
+      "text": "Recover the last saved version ",
+      "page": 3,
+      "top": 93.3,
+      "sub_content": "1.On Windows, choose the hamburger   >  > .\nMenuUndo, Redo & moreRevert\nOn macOS, select the  menu > .\nFileRevert"
+    },
+    {
+      "level": "H2",
+      "text": "About the Autosave feature ",
+      "page": 3,
+      "top": 213.7,
+      "sub_content": "The Autosave feature guards against losing your work in case of a power failure by\nincrementally, and at regular intervals, saving file changes to a specified location. The original\nfile is not modified. Instead, Acrobat creates an autosave file of changes, which includes all the\nchanges you made to the open file since the last automatic save. The amount of new\ninformation that the autosave file contains depends on how frequently Acrobat saves the\nautosave file. If you set the autosave interval to 15 minutes, you could lose the last 14 minutes\nof your work if a problem occurs. Frequent automatic saving prevents loss of data, and is\nespecially useful if you make extensive changes to a document, such as by adding comments.\nYou can apply autosave changes to the original files when you restart Acrobat. When you\nclose, save manually, or revert to the last-saved version of a file, the autosave file is deleted."
+    },
+    {
+      "level": "H3",
+      "text": "Note: ",
+      "page": 3,
+      "top": 408.8,
+      "sub_content": "If you use assistive technology, such as a screen reader, you may want to disable the Autosave\nfeature so that you don’t lose your place when the file is reloaded.\nThe Autosave feature won’t work in the following cases:\nA document that has its security changed. You must save the document to re-enable\n•\nautomatic saving of document changes.\nWeb Capture\nA document created using the  feature or extracted from a larger PDF\n•\nAll tools Organize PagesExtract\n(>  > ). You must save the document to enable\nautomatic saving of changes.\nA document displayed in a web browser or incorporated into a container document\n•\nObject Linking\nthat supports  and Embedding (OLE). This document appears outside\nthe default file system and cannot support automatic saving."
+    },
+    {
+      "level": "H3",
+      "text": "Recover lost changes ",
+      "page": 3,
+      "top": 654.9,
+      "sub_content": "To prevent lost changes after an unexpected interruption, enable the Autosave feature, which\nis the default setting."
+    },
+    {
+      "level": "H2",
+      "text": "Set up automatic saving ",
+      "page": 4,
+      "top": 75.7,
+      "sub_content": "1.In the Preferences dialog box under Categories, select Documents.\n2.Select Automatically Save Document Changes To Temporary File Every xx Minutes (1-\n99), and specify the number of minutes."
+    },
+    {
+      "level": "H2",
+      "text": "Recover lost changes after an unexpected shutdown ",
+      "page": 4,
+      "top": 204.8,
+      "sub_content": "1.Start Acrobat or open the file you were working on last.\n2.When prompted, click Yes to open the autosave file or files. If multiple files were open,\nAcrobat opens all of the files for you.\n3.Save the file or files with the same names as the files you were originally working on.\nPDF OptimizerAcrobat Pro\nTo control changes and quality trade-oﬀs, use  in , which makes\nmore options available. You can also easily convert from other file formats to PDF using our\nonline tools such as Word to PDF and Convert PDF.\nYou can easily convert your PDF files into Microsoft Word (DOC or DOCX) using Adobe\nAcrobat."
+    },
+    {
+      "level": "H2",
+      "text": "Convert PDF to DOCX ",
+      "page": 4,
+      "top": 460.5,
+      "sub_content": "1.Open the PDF in Acrobat.\nConvert.\n2.From the global bar, select\nDOCXMicrosoft Word\n3.From the left pane, Select  from the drop-down menu next to .\nConvert to DOCX\nThen select .\n4.In the Save as dialog, select a location where you want to save the file and then\nSave\nselect."
+    },
+    {
+      "level": "H2",
+      "text": "Convert PDF to DOC ",
+      "page": 5,
+      "top": 390.2,
+      "sub_content": "1.Open the PDF in Acrobat.\nConvert.\n2.From the global bar, select\nDOCMicrosoft Word\n3.From the left pane, Select  from the drop-down menu next to .\nConvert to DOC\nThen select .\n4.In the Save asdialog, select a location where you want to save the file and then\nSave\nselect.\nFor PDF to Word conversion settings, go to File format options for PDF export.\nYou can easily convert your PDF files into Microsoft Powerpoint (PPT/PPTX) using Adobe\nAcrobat."
+    },
+    {
+      "level": "H2",
+      "text": "Convert PDF to PPTX ",
+      "page": 6,
+      "top": 170.9,
+      "sub_content": "1.Open the PDF in Acrobat.\nConvert\n2.Select  from the globar bar.\nMicrosoft PowerPoint PPTX.\n3.From the Convert menu in the left pane, select\nConvert to PPTX\n4.Select .\n5.In the dialog, select the location where you want to save the file and, if necessary,\nchange the file name.\nSave\n6.Select ."
+    },
+    {
+      "level": "H1",
+      "text": "File format op�ons for PDF export in Acrobat ",
+      "page": 7,
+      "top": 79.2,
+      "sub_content": "Convert\nTo convert a PDF to different file formats, select  from the global bar. Each file format\nExport a PDF\nincludes unique conversion settings. Alternatively, you can use the  tool from\nAll tools\nthe  menu."
+    },
+    {
+      "level": "H2",
+      "text": "Adobe PDF options ",
+      "page": 7,
+      "top": 196.9,
+      "sub_content": "PDF Optimizer\nYou can resave PDFs as optimized PDFs using settings in the  dialog box.\nPDF Optimizer\nThe  lets you change the compatibility version of your PDFs so they can be\nviewed using older versions of Acrobat or Acrobat Reader. When you change the\ncompatibility setting, newer features may be unavailable in the PDF. For an explanation of\neach compatibility setting, view PDF compatibility levels."
+    },
+    {
+      "level": "H2",
+      "text": "Image conversion settings ",
+      "page": 7,
+      "top": 447.7,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "File settings ",
+      "page": 7,
+      "top": 602.4,
+      "sub_content": "Grayscale/Color:\nSpecifies a compression setting that balances file size with image\n•\nquality. The smaller the file, the lesser the image quality.\nTile Size:\nDivides the image being compressed into tiles of the given size. (If the image\n•\nheight or width is not an even multiple of the tile size, partial tiles are used on the\nedges.) Image data for each tile is individually compressed and can be individually\ndecompressed. The default value of 256 is recommended. This option is available only\nfor JPEG 2000 format.\nFormat:\nDetermines how the file is displayed. Available only in JPEG format. It\n•\nprovides the following options:\nBaseline (Standard):\nDisplays the image when it has fully downloaded. This\n•\nJPEG format is recognizable to most web browsers.\nBaseline (Optimized):\nOptimizes color quality of the image and produces\n•\nsmaller file sizes but is not supported by all web browsers.\nProgressive (3 scans-5 scans):\nDownloads the image first as a low-resolution\n•\nimage, with incremental quality improvements as downloading continues."
+    },
+    {
+      "level": "H3",
+      "text": "Note: ",
+      "page": 7,
+      "top": 318.8,
+      "sub_content": "If you want to use the same settings every time you convert PDFs to a particular format,\nPreferencesConvert From PDF\nspecify those settings in the  dialog box. In the  panel, select a\nEdit SettingsDefaults\nfile format from the list and select . You can select the  at the top of\nSave as Settings\nthe  dialog box to revert to the default settings."
+    },
+    {
+      "level": "H3",
+      "text": "JPEG and JPEG 2000 conversion settings ",
+      "page": 7,
+      "top": 481.5,
+      "sub_content": "All tools  Export a PDFImage format\nIn Acrobat, select > and select . From the drop-down\nImage format\nmenu next to , select the format you want your image to be. You\nJPEGJPEG 2000\nget  and  options. Select the settings icon to change the export\npreferences."
+    },
+    {
+      "level": "H2",
+      "text": "Color management ",
+      "page": 8,
+      "top": 266.0,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "Conversion ",
+      "page": 8,
+      "top": 478.9,
+      "sub_content": ""
+    },
+    {
+      "level": "H3",
+      "text": "RGB/CMYK/Grayscale ",
+      "page": 8,
+      "top": 292.2,
+      "sub_content": "Specifies the type of color management to be applied to the output file and whether to\nembed an ICC profile."
+    },
+    {
+      "level": "H3",
+      "text": "Note: ",
+      "page": 8,
+      "top": 351.6,
+      "sub_content": "Export ToExport All Images\nIf you use the  or  command on a PDF that contains JPEG and\nJPEG 2000 images, and export the content to JPEG or JPEG 2000 format, the resulting image\nmay look different when opened in Acrobat. This can happen if the images have a color\nprofile included at the page level but not inside the image data. In this case, Acrobat cannot\nbring the page-level color profile into the resulting saved image."
+    },
+    {
+      "level": "H3",
+      "text": "Colorspace/Resolution ",
+      "page": 8,
+      "top": 505.1,
+      "sub_content": "Specifies a color space and resolution for the output file. You can let Acrobat determine these\nsettings automatically. To convert color images in the file to shades of gray, choose Grayscale.\nNote:\nHigher resolutions, such as 2400 pixels per inch (ppi), are suitable only for small page sizes\n(up to 6.826 inches or 173.380 millimeters)."
+    },
+    {
+      "level": "H3",
+      "text": "PDF to PNG conversion settings ",
+      "page": 8,
+      "top": 626.7,
+      "sub_content": "All tools  Export a PDFImage format\nIn Acrobat, select > and select . From the drop-down\nImage formatPNG\nmenu next to , select . Select the settings icon to change the export\npreferences.\nPNG format is useful for images that are used on the web."
+    },
+    {
+      "level": "H2",
+      "text": "File settings ",
+      "page": 9,
+      "top": 98.0,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "Color management ",
+      "page": 9,
+      "top": 446.2,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "Conversion ",
+      "page": 9,
+      "top": 552.4,
+      "sub_content": ""
+    },
+    {
+      "level": "H3",
+      "text": "Interlace ",
+      "page": 9,
+      "top": 124.2,
+      "sub_content": "Specifies if the image is interlaced. None creates an image that displays in a web browser only\nafter downloading is complete. Adam7 creates an image that displays low-resolution versions\nin a browser while the full image file is downloading. Adam7 can make downloading time\nseem shorter and assures viewers that downloading is in progress; however, it increases file\nsize.\nFilter:\nLets you select a filtering algorithm.\nNone\n: Compresses the image without a filter. Recommended for indexed-color\n•\nand Bitmap-mode images.\nSub:\nOptimizes the compression of images with even horizontal patterns or blends.\n•\nUp:\nOptimizes the compression of images with even vertical patterns.\n•\nAverage:\nOptimizes the compression of low-level noise by averaging the color values\n•\nof adjacent pixels.\nPaeth\n: Optimizes the compression of low-level noise by reassigning adjacent color\n•\nvalues.\nAdaptive:\nApplies the filtering algorithm—Sub, Up, Average, or Paeth—best suited for\n•\nthe image. Select Adaptive if you are unsure of which filter to use."
+    },
+    {
+      "level": "H3",
+      "text": "RGB/Grayscale ",
+      "page": 9,
+      "top": 472.4,
+      "sub_content": "Specifies the type of color management for the output file and whether to embed an ICC\nprofile."
+    },
+    {
+      "level": "H3",
+      "text": "Colorspace/Resolution ",
+      "page": 9,
+      "top": 578.6,
+      "sub_content": "Specifies a color space and resolution for the output file. You can let Acrobat determine these\nsettings automatically. To convert color images in the file to shades of gray, choose Grayscale."
+    },
+    {
+      "level": "H3",
+      "text": "Note: ",
+      "page": 9,
+      "top": 638.0,
+      "sub_content": "Higher resolutions, such as 2400 ppi, are suitable only for small page sizes (up to 6.826 inches\nor 173.380 millimeters).\nPDF to TIFF conversion settings\nAll tools  Export a PDFImage format\nIn Acrobat, select > and select . From the drop-down\nImage formatTIFF\nmenu next to , select . Select the settings icon to change the export\npreferences.\nTIFF is a flexible bitmap image format supported by virtually all paint, image-editing, and\npage-layout applications. Resolution is determined automatically."
+    },
+    {
+      "level": "H2",
+      "text": "File settings ",
+      "page": 10,
+      "top": 217.9,
+      "sub_content": "Monochrome\nSpecifies a compression format. CCITTG4 is the default and generally produces the smallest\nfile size. ZIP compression also produces a small file."
+    },
+    {
+      "level": "H2",
+      "text": "Color management ",
+      "page": 10,
+      "top": 386.3,
+      "sub_content": "RGB/CMYK/Grayscale/Other\nSpecifies the type of color management for the output file."
+    },
+    {
+      "level": "H2",
+      "text": "Conversion ",
+      "page": 10,
+      "top": 477.8,
+      "sub_content": "Colorspace/Resolution\nSpecifies a color space and resolution for the output file. You can let Acrobat determine these\nsettings automatically. To convert color images in the file to shades of gray, choose Grayscale.\nNote:\nHigher resolutions, such as 2400 ppi, are suitable only for small page sizes (up to 6.826 inches\nor 173.380 millimeters)."
+    },
+    {
+      "level": "H3",
+      "text": "Note: ",
+      "page": 10,
+      "top": 303.5,
+      "sub_content": "Some applications cannot open TIFF files that are saved with JPEG or ZIP compression. In\nthese cases, LZW compression is recommended."
+    },
+    {
+      "level": "H1",
+      "text": "PDF to Microso� Word conversion se�ngs ",
+      "page": 11,
+      "top": 95.0,
+      "sub_content": "In Acrobat, select > and select  From the drop-down\nAll tools  Export a PDFMicrosoft Word.\nmenu next to , select the format you want your document to be in You\nMicrosoft Word.\nget  and options. Select the settings icon to change the export preferences.\nDOCDOCX"
+    },
+    {
+      "level": "H3",
+      "text": "Layout Settings ",
+      "page": 11,
+      "top": 198.6,
+      "sub_content": "Speciﬁes that text ﬂow must be retained.\n•Retain Flowing Text:\nSpeciﬁes that page layout must be retained.\n•Retain Page Layout:"
+    },
+    {
+      "level": "H3",
+      "text": "Comments Settings ",
+      "page": 11,
+      "top": 262.1,
+      "sub_content": "Exports comments to the output ﬁle.\n•Include Comments:"
+    },
+    {
+      "level": "H3",
+      "text": "Image Settings ",
+      "page": 11,
+      "top": 306.4,
+      "sub_content": "Exports images to the output ﬁle.\n•Include Images:"
+    },
+    {
+      "level": "H3",
+      "text": "Text Recognition Settings ",
+      "page": 11,
+      "top": 350.7,
+      "sub_content": "Recognizes text if the PDF contains images that contain text.\n•Recognize Text If Needed:\nSpeciﬁes the language se�ng for OCR.\n•Set Language:"
+    },
+    {
+      "level": "H1",
+      "text": "Convert PDF to RTF ",
+      "page": 12,
+      "top": 95.0,
+      "sub_content": "1.Open the PDF in Acrobat.\n2.From the global bar, select\nConvert.\n3.Under , select the drop-down menu next to . Then\nEXPORT PDF TOOther format\nselect .\nRTF\n4.Select .\nConvert to RTF\n5.In the Save asdialog, select a location where you want to save the file and then\nselect.\nSave"
+    },
+    {
+      "level": "H2",
+      "text": "PDF to RTF conversion se�ngs ",
+      "page": 12,
+      "top": 500.4,
+      "sub_content": "In Acrobat, select > and select  From the drop-down menu\nAll tools  Export a PDFOther format.\nnext to , select . Select the settings icon to change the export\nOther formatRTF\npreferences."
+    },
+    {
+      "level": "H3",
+      "text": "Layout Settings ",
+      "page": 12,
+      "top": 589.2,
+      "sub_content": "Speciﬁes that text ﬂow must be retained.\n•Retain Flowing Text:\nSpeciﬁes that page layout must be retained.\n•Retain Page Layout:"
+    },
+    {
+      "level": "H3",
+      "text": "Comments Settings ",
+      "page": 12,
+      "top": 652.7,
+      "sub_content": "Exports comments to the output ﬁle.\n•Include Comments:\nImage Settings\nExports images to the output ﬁle.\n•Include Images:"
+    },
+    {
+      "level": "H3",
+      "text": "Text Recognition Settings ",
+      "page": 13,
+      "top": 97.7,
+      "sub_content": "Recognizes text if the PDF contains images that contain text.\n•Recognize Text If Needed:\nSpeciﬁes the language se�ng for OCR.\n•Set Language:"
+    },
+    {
+      "level": "H1",
+      "text": "Convert PDF to HTML Web Page ",
+      "page": 14,
+      "top": 95.0,
+      "sub_content": "1.Open the PDF in Acrobat.\n2.From the global bar, select\nConvert.\n3.Select the drop-down menu next to , Select .\nOther formatHTML\n4.Select Convert to\nHTML.\n5.In the Save asdialog, select a location where you want to save the file and then\nselect.\nSave"
+    },
+    {
+      "level": "H2",
+      "text": "PDF to HTML conversion se�ngs ",
+      "page": 14,
+      "top": 588.3,
+      "sub_content": "In Acrobat, select > and select  From the drop-down menu\nAll tools  Export a PDFOther format.\nnext to , select . Select the settings icon to change the export\nOther formatHTML\npreferences.\nFILE AND NAVIGATION PANE SETTINGS"
+    },
+    {
+      "level": "H2",
+      "text": "Single html page ",
+      "page": 15,
+      "top": 76.8,
+      "sub_content": "Specifies that a single HTML file is created when you export to HTML. To add a navigation pane,\nenable the following:\nAdd Headings-based Navigation Frame\n•\nAdd Bookmarks-based Navigation Frame\n•"
+    },
+    {
+      "level": "H2",
+      "text": "Multiple html pages ",
+      "page": 15,
+      "top": 211.9,
+      "sub_content": "Specifies that multiple HTML files are created when you export to HTML. Choose one of the\ncriteria to split the document into multiple HTML files.\nSplit by Document Headings\n•\nSplit by Document Bookmarks\n•"
+    },
+    {
+      "level": "H2",
+      "text": "Content se�ngs ",
+      "page": 15,
+      "top": 339.6,
+      "sub_content": "Include Images\nSpecifies if images are exported when you export a PDF as HTML.\nDetect and Remove Headers and Footers\nSpecifies if header and footer content in the PDF should be deleted and removed from the\nHTML files."
+    },
+    {
+      "level": "H2",
+      "text": "Text recogni�on se�ngs ",
+      "page": 15,
+      "top": 489.4,
+      "sub_content": "Recognize Text If Needed\nRecognizes text if the PDF contains images that contain text.\nSet Language\nSpecifies the language setting for OCR."
+    },
+    {
+      "level": "H1",
+      "text": "Convert PDF to Microso� Excel ",
+      "page": 16,
+      "top": 95.0,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "Convert PDF to Microsoft Excel (XLSX) ",
+      "page": 16,
+      "top": 136.1,
+      "sub_content": "1.Open the PDF in Acrobat.\n2.From the global bar, select\nConvert.\n3. drop-down menu, select .\nFrom the Microsoft ExcelXLSX\n4.Select .\nConvert to XLSX\n5.In the Save asdialog, select a location where you want to save the file and then\nselect.\nSave"
+    },
+    {
+      "level": "H2",
+      "text": "Convert PDF to XML ",
+      "page": 16,
+      "top": 558.6,
+      "sub_content": "1.Open the PDF in Acrobat.\n2.From the global bar, select\nConvert.\n3.From the drop-down menu, select .\nMicrosoft Excel XML\n4.Select .\nConvert to XML\n5.In the Save asdialog, select a location where you want to save the file and then\nselect.\nSave\nPDF to Microso� Excel (XLSX or XML) conversion se�ngs\nIn Acrobat, select > and select . From the drop down\nAll tools  Export a PDFMicrosoft Excel\nmenu next to Microsoft Excel, select the format you want your Excel to be. You\nget  and  options. Select the settings icon to change the export preferences.\nXLSXXML\nExcel Workbook Settings\nSpecifies whether to create a Worksheet for each table or page, or the entire document.\nNumeric Settings\nSpecifies the decimal and thousands separators for numeric data. Select one of the following:\n•Detect decimal and thousands separators using regional settings\n. Then enter or selecct\n•Treat the following as decimal and thousands separators\nseparators in the respective fields."
+    },
+    {
+      "level": "H2",
+      "text": "Text recogni�on se�ngs ",
+      "page": 17,
+      "top": 662.5,
+      "sub_content": "Recognize Text If Needed\nRecognizes text if the PDF contains images that contain text.\nSet Language\nSpecifies the language setting for OCR."
+    },
+    {
+      "level": "H1",
+      "text": "Convert PDF to PostScript or Encapsulated ",
+      "page": 19,
+      "top": 95.0,
+      "sub_content": ""
+    },
+    {
+      "level": "H1",
+      "text": "PostScript (EPS) ",
+      "page": 19,
+      "top": 124.3,
+      "sub_content": "You can export a PDF to PostScript for printing and prepress applications. The PostScript file\nincludes full DSC (Document Structuring Conventions) comments and other advanced\ninformation preserved by Adobe Acrobat Distiller. You can also create an EPS file from any PDF\nfor placement or opening in other applications. The options available depend on whether\nyou're converting a document to PostScript or EPS. To convert PDF to PS or EPS format:\n1.Open the PDF in Acrobat.\n2.From the global bar, select\nConvert.\n3.Select the drop-down menu next to , as required, select  or .\nOther formatEPSPS\n4.Select  or . The options will be displayed based on your\nConvert to EPSConvert to PS\nchoice in the previous step.\n5.In the Save asdialog, select a location where you want to save the file and then\nselect.\nSave"
+    },
+    {
+      "level": "H3",
+      "text": "Note: ",
+      "page": 19,
+      "top": 656.2,
+      "sub_content": "If you create EPS files for separations in Acrobat Pro, all image color spaces should be CMYK.\nPDF to PS and EPS conversion se�ngs\nIn Acrobat, select > and select  From the drop-down menu\nAll tools  Export a PDFOther format.\nnext to , select  or . Select the settings icon to change the export\nOther formatPSEPS\npreferences.\nPrinter Description File\nThe PostScript Printer Description (PPD) provides the necessary information to format a\nPostScript file correctly for a particular output device. Device Independent creates only\ncomposite (not color-separated) PostScript or EPS files. Acrobat Default provides a starting\npoint and reference for creating all types of PostScript and restores all default settings for the\nconversion. Adobe PDF 7.0 is compatible with most devices. This option is available only in\nPostScript (PS) format.\nASCII or Binary\nSpecifies the output format of image data. Binary output yields smaller files, but not all\nworkflows can accommodate binary output.\nPostScript\nSpecifies the level of PostScript compatibility. Use  only if the target output\nLanguage Level 3\ndevice supports it.  is suitable for EPS files placed in another document and\nLanguage Level 2\ncolor-separated as part of that document. Use  for EPS files that you import\nLanguage Level 2\ninto Microsoft applications.\nFont Inclusion\nSpecifies the fonts to be included in the PostScript. Embedded fonts are taken from the PDF;\nthe referenced fonts are taken from the computer.\nInclude Comments\nPreserves the appearance of comments in the resulting PostScript file.\nConvert True Type to Type 1\nConverts TrueType fonts to Type 1 fonts in the resulting PostScript file.\nInclude Preview\nSpecifies if a TIFF preview is created for the resulting EPS file. This option isn't available when\nsaving as PostScript.\nPage Range\nSpecifies the pages you want to export. When you export files to EPS output, each page in the\nrange is saved as a separate EPS file."
+    },
+    {
+      "level": "H1",
+      "text": "Convert PDF to Text and XML 1.0 ",
+      "page": 21,
+      "top": 95.0,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "Convert PDF to XML 1.0 ",
+      "page": 21,
+      "top": 135.7,
+      "sub_content": "All Tools Export a PDF\nTo export a file in XML format, go to > .  Select other format, then the\nXML 1.0\ndrop-down next to other format, and then select ."
+    },
+    {
+      "level": "H2",
+      "text": "Convert PDF to text ",
+      "page": 21,
+      "top": 200.2,
+      "sub_content": "All Tools Export a PDFother format\nTo export a file in text format, go to > .  Select , then the\nother formatTXT\ndrop-down next to , and then select ."
+    },
+    {
+      "level": "H2",
+      "text": "Output file settings ",
+      "page": 21,
+      "top": 595.6,
+      "sub_content": ""
+    },
+    {
+      "level": "H3",
+      "text": "PDF to Text and XML 1.0 conversion settings ",
+      "page": 21,
+      "top": 489.5,
+      "sub_content": "All tools  Export a PDFOther format.\nIn Acrobat, select > and select  From the drop-down\nOther formatTXTXML 1.0\nmenu next to , select  or . Select the settings icon to change the\nexport preferences."
+    },
+    {
+      "level": "H3",
+      "text": "Encoding ",
+      "page": 21,
+      "top": 621.8,
+      "sub_content": "Refers to the binary values, based on international standards, used to represent the text\nUTF-8\ncharacters.  is a Unicode representation of characters using one or more 8-bit bytes per\nUTF-16\ncharacter.  represents characters using 16-bit bytes. ISO-Latin-1 is an 8-bit\nrepresentation of characters that is a superset of ASCII. UCS-4 is a Universal Character Set\ncoded in four octets. HTML/ASCII is a 7-bit representation of characters developed by ANSI.\nUse mapping table default\nuses the default character encoding defined in mapping tables,\nwhich appear in the Plug-ins/SaveAsXML/MappingTables folder. These mapping tables\nspecify many characteristics of how the data is output, including the following default\nUTF-8\ncharacter encodings:  (Save as XML or HTML 4.0.1) and HTML/ASCII (Save as HTML\n3.2).\nGenerate Bookmarks\nGenerates bookmark links to content for HTML or XML documents. Links are placed at the\nbeginning of the resulting HTML or XML document.\nGenerate Tags For Untagged Files\nGenerates tags for files not already tagged, such as PDFs created using Acrobat 4.0 or earlier.\nIf this option isn't selected, untagged files are not converted."
+    },
+    {
+      "level": "H2",
+      "text": "Image file settings ",
+      "page": 22,
+      "top": 357.8,
+      "sub_content": "Generate Images\nControls how images are converted. Converted image files are referenced from within XML\nand HTML documents.\nUse Sub-Folder\nSpecifies the folder in which to store generated images. The default is Images.\nUse Prefix\nSpecifies the prefix added to the image filenames if you have several versions of the same\nimage file. Filenames assigned to images have the format filename_img_#.\nOutput Format\nSpecifies the final format of images. The default is JPG.\nDownsample To\nDownsamples image files to the specified resolution. If you don't select this option, image files\nhave the same resolution as the source file. Image files are never upsampled.\nYou can easily convert PDF files to JPEG images using Adobe Acrobat. You can also convert\nyour PDF files into PNG or TIFF file formats using Acrobat."
+    },
+    {
+      "level": "H3",
+      "text": "Note: ",
+      "page": 22,
+      "top": 275.0,
+      "sub_content": "Tags are applied only as part of the conversion process and are discarded after the\nconversion. This is not a method for creating tagged PDFs from legacy files"
+    },
+    {
+      "level": "H2",
+      "text": "Convert PDF to JPEG or JPEG 2000 ",
+      "page": 23,
+      "top": 75.7,
+      "sub_content": "1.Open the PDF in Acrobat.\nConvert\n2.Select  from the global bar.\nConvertImage format\n3.From the  menu in the left pane, select , and then from the\nJPEGJPEG 2000\ndrop-down menu, select  or .\nConvert to JPEG Convert to JPEG 2000\n4.Select or . Different options are shown based\non your selection in the previous step.\n5.In the dialog, select the location where you want to save the file and, if necessary,\nchange the file name.\nSave\n6.Select .\nEach page in the PDF is saved as separate JPEG files.\nFor PDF to JPEG or PDF to JPEG 2000 conversion settings, go to File format options for PDF\nexport.\nYou can easily convert your PDF files into TIFF images using Adobe Acrobat."
+    },
+    {
+      "level": "H2",
+      "text": "Convert PDF to TIFF ",
+      "page": 23,
+      "top": 663.7,
+      "sub_content": "1.Open the PDF in Acrobat.\nConvert\n2.Select  from the global bar.\nImage format\n3.From the Convert menu in the left pane, select , and then from the drop-\nTIFF.\ndown menu, select\nConvert to TIFF.\n4.elect\n5.In the dialog, select the location where you want to save the file and, if necessary,\nchange the file name.\nSave\n6.Select .\nEach page in the PDF is saved as separate TIFF files.\nFor PDF to TIFF conversion settings, go to File format options for PDF export.\nYou can easily convert your PDF files into PNG images using Adobe Acrobat."
+    },
+    {
+      "level": "H2",
+      "text": "Convert PDF to PNG ",
+      "page": 24,
+      "top": 281.2,
+      "sub_content": "1.Open the PDF in Acrobat.\nConvert\n2.Select  from the global bar.\nImage format\n3.From the Convert menu in the left pane, select , and then from the drop-\nPNG\ndown menu, select .\nConvert to PNG.\n4.Select\n5.In the dialog, select the location where you want to save the file and, if necessary,\nchange the file name.\nSave\n6.Select .\nEach page in the PDF is saved as separate PNG files.\nFor PDF to PNG conversion settings, go to File format options for PDF export."
+    },
+    {
+      "level": "H3",
+      "text": "Overview ",
+      "page": 25,
+      "top": 103.5,
+      "sub_content": "Acrobat allows you to export images and text selections from a PDF to different file formats.\nEach format uses unique conversion settings when you export text or image selections."
+    },
+    {
+      "level": "H3",
+      "text": "Export images from PDFs ",
+      "page": 25,
+      "top": 175.8,
+      "sub_content": "Besides exporting the entire document or each page to a different format, you can export\neach image in a PDF to a separate image file."
+    },
+    {
+      "level": "H3",
+      "text": "Note: ",
+      "page": 25,
+      "top": 248.1,
+      "sub_content": "You can export raster images, but not vector objects.\nConvert\n1.Open the PDF in Acrobat and select  from the top tools bar. Alternatively,\nAll tools Export a PDF\nfrom the menu, select .\nThe various formats to which you can export the PDF file are displayed.\nimage format\n2.From the Convert panel, select and then from the drop-down, select the\ndesired image file format.\n3.Optional) To configure the conversion settings, select Settings and then modify\nOK\nthe settings as required. Once done, select .\n4.(Optional) To configure the image settings:\nExport all Images\n1.Select and then select Settings\nFile SettingsColor\n2.In the dialog that appears, specify the ,\nManagementConversionExtraction\n, , and  settings for the file type.\nExclude images smaller than\n3.For , select the smallest size of the image to be\nextracted. Select No Limit to extract all images.\nOk\n4.Select .\nNote:\nIf you do not select the Export All Images option, all pages within the PDF are saved in the\nselected image file format.\nConvert to JPEG\n5.Select .\nChoose a\n6.In the Save as dialog that appears, select a desired location or select\ndifferent folder\nto select alternate locations.\nSave\n7.Select .\nIt exports only the images from the PDF to the selected image file format. By\ndefault, the source filename is used with the new extension, and the exported\nfile is saved in the same folder as the source file.\nExport selections from a PDF to another format\nTo export a part of the PDF file into another format, you don’t need to convert the entire file\nand then extract the relevant content. You can select text in a PDF file and save it in one of the\nsupported formats: DOCX, DOC, XLSX, RTF, XML, HTML, or CSV.\n1.Use the Select tool and mark the content to save.\nExport Selection As\n2.Right-click the selected text and choose .\nSave As TypeSave\nSelect a format from the  list and select\n3.."
+    },
+    {
+      "level": "H1",
+      "text": "Select and copy text and images ",
+      "page": 27,
+      "top": 79.2,
+      "sub_content": "Select\nThe  tool   lets you select horizontal and vertical text or columns of text, images,\nSelect\nvector objects, and tables in a PDF. The  tool  recognizes the type of content under\nthe cursor and changes automatically. You can use the Copy, Copy with Formatting, Export\nSelection As, and Paste commands to copy the selected text into another application. Note"
+    },
+    {
+      "level": "H3",
+      "text": "the following: ",
+      "page": 27,
+      "top": 181.2,
+      "sub_content": "All\nIf you’re unable to select text, the text may be part of an image. In Acrobat, select\n•\ntoolsScan & OCR,In this fileRECOGNIZE TEXT\n>  then select  under  to export image\ntext to text that can be selected.\nIf the Cut, Copy, Copy with Formatting, and Paste commands are unavailable when\n•\nyou select the text, the author may have set restrictions to copying text.\nIf the text you copy uses a font that isn’t available on your system, the font is\n•\nsubstituted with a close match or default font."
+    },
+    {
+      "level": "H3",
+      "text": "Select text and images ",
+      "page": 27,
+      "top": 419.9,
+      "sub_content": "1.Select the Select tool  , and hover over an empty part of the page. Alternatively,\npress Ctrl (Windows) or Command (macOS); the pointer changes to display a\nrectangle.\n2.Drag the pointer and draw a rectangle to select a part of the page."
+    },
+    {
+      "level": "H3",
+      "text": "Select a column of text ",
+      "page": 27,
+      "top": 514.0,
+      "sub_content": "1.Using the Select tool  , move the pointer toward a column of text. When the\nSelect\npointer changes to a vertical bar, the  tool is in column select mode.\nNote:\nYou can force column select mode by pressing Alt as you drag a rectangle over the\ncolumn of text.\n2.Drag a rectangle over the column of text. To select text across multiple columns, drag\nfrom the beginning of the text in one column to the end of the text you want to select.\nSelect all the text on a page\nView\n1.Select  from the upper left (macOS) or select the hamburger menu on the upper\nviewPage displaySingle-page view\nleft and then select  (Windows). Select  > .\n2.Select four times repeatedly in the text area. This method selects all the text on the\npage regardless of the page layout.\nNote:\nIf you choose any other page layout, all the text in the document is selected."
+    },
+    {
+      "level": "H3",
+      "text": "Copy selected text ",
+      "page": 28,
+      "top": 193.5,
+      "sub_content": "1.Use the Select tool  to select any amount of text on the page.\nCopy.\n2.Right-click on the selected text, and then select\nYou can paste the copied text into comments, bookmarks, and documents authored in\nother applications.\nPaste copied text and images\n1.Open the PDF in which you want to paste the selected text or image.\n2.Select the area where you want to paste the text or image.\nCtrl + V\n3.(Windows) Press .\ncommand + V\n(macOS) Press ."
+    },
+    {
+      "level": "H1",
+      "text": "Convert selected content to other formats ",
+      "page": 29,
+      "top": 95.0,
+      "sub_content": "You convert selected content to other formats by exporting a selection. For example, you can\nselect content and save it as a Word document, Excel spreadsheet, or comma-separated\nvalues.\nSelect\n1.Select the  tool . Press Ctrl (Windows) or Command (macOS) to create a\nrectangular selection.\n2.Drag a rectangle over the content to copy. If you’re selecting text in columns,\nAlt\npress  (Windows).\nNote:Single\nTo select tables that exceed one page, try changing the page display to\nPageViewPage DisplayEnable Scrolling\nbefore selecting the tables. Then select  >  > .\nExport Selection As,\n3.Right-click the selection, select  and specify a filename.\nSave As\n4.Depending on the nature of the content, in the  Type, select one of the\nfollowing:\n•\nWord Document or Word 97-2003\nSaves the content as a Word file.\n•\nExcel Workbook, XML Spreadsheet, or CSV\nSaves the content as a table.\n•\nRich Text Format or HTML\nSaves the content as an RTF or HTML file.\nNote:\nTo copy a table in RTF, drag the selected table into an open document in the\ntarget application.\n•\nPowerPoint\nSaves the content as a PowerPoint (.pptx) file."
+    }
+  ]
+}

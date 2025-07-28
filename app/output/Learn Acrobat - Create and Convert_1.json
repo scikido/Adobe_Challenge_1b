@@ -1,0 +1,621 @@
+{
+  "title": "What’s the best way to create a PDF?  ",
+  "outline": [
+    {
+      "level": "H2",
+      "text": "PDF creation methods by file type ",
+      "page": 1,
+      "top": 372.2,
+      "sub_content": "Refer to the following lists to determine the methods available for the diﬀerent types of files.\nFile Type PDF Creation Methods\n:Create\nMethod 1 From the top tools bar, select . Then, select a\nfile type and then select the file that you want to convert to\nPDF.\nOr, select the hamburger menu  (Windows) or\nFileCreate\nthe  menu (macOS)  > and then select the\nAny file format\nappropriate file type and follow through the steps.\n:\nMethod 2 Drag and drop a file from your system to the\nAcrobat Home page.\nConvert to\nMethod 3: Right-click on the file and then select\nAdobe PDF\n.\nMethod 4: Open the file in its source application and go\nPrintAdobe PDF printer\nto  > .\nCreate\nMethod 1: From the top tools bar, select . Then,\nScanner\nselect as the file type, select the scanner, and follow\nthrough the steps or browse to locate a pre-scanned page.\nPaper documents\n(Requires a scanner)\nOr, select the hamburger menu  (Windows) or\nFileCreate from scanner\nthe  menu (macOS) >  and follow\nthrough the workflow.\nMethod 1 (Windows only): From the authoring application\nAdobe AcrobatCreate and Share Adobe\ntoolbar, select  >\nPDF\n.\nMethod 2 (Windows only): Open the file in its source\nPrintAdobe PDF printer\napplication and then go to  > .\nMicrosoft Oﬃce\nMethod 3 (Windows only): Right-click on the file and\ndocuments\nConvert to Adobe PDF\nselect .\nMethod 4: Drag and drop the file from your system to the\nAcrobat Home page.\nMethod 5 (macOS only): From the authoring application,\nFilePrintPDFSave as Adobe PDF\nselect  >  >  > .\nMethod 1 (Windows only): Within Microsoft Outlook or Lotus\nNotes, select Acrobat PDFMaker or select Adobe PDF menu\noptions (Outlook) or the Actions menu (Lotus Notes).\nMethod 2 (Windows only): From the email application, go\nEmail messages\nPrintAdobe PDF Create a PDF\nto  > (not a PDF Portfolio).\nMethod 3 (Outlook 2010 or later): From the email folder or\nConvert to\nselection of messages, right-click and then select\nAdobe PDF\n.\nCreate\nMethod 1: From the top tools bar, select . Then,\nWeb page\nselect  as the file type and follow through the\nsteps.\nOr, select the hamburger menu  (Windows) or\nFileCreatePDF from web page\nthe  menu (macOS) >  >  and\nfollow through the workflow.\nWeb pages\nMethod 2: Drag and drop the HTML file from your system to\nthe Acrobat Home page.\nMethod 3: Right-click on the file and then select Convert to\nAdobe PDF.\nMethod 4: From the top-right corner of the webpage,\nPrintAdobe PDF\nselect>  > .\nCreate\nMethod 1: From the top tools bar, select . Then,\nClipboard\nselect  as the file type and follow through the\nsteps.\nContent copied on the\nclipboard\nOr, select the hamburger menu  (Windows) or\nFileCreatePDF from clipboard\nthe  menu (macOS) >  >  and\nfollow through the workflow.\nCreate\nMethod 1: From the top tools bar, select and then\nselect the file.\nOr, select the hamburger menu  (Windows) or\nFileCreatePDF from file\nthe  menu (macOS) >  >  and follow\nthrough the workflow.\nAutoCAD files (Acrobat\nPro for Windows only)\nMethod 2: Drag and drop the HTML file from your system to\nthe Acrobat Home page.\nConvert to Adobe\nMethod 3: Right-click the file and select\nPDF\n.\nPrintAdobe PDF\nMethod 4: Within AutoCAD, go to  > .\nCreate a PDF\nMethod 1: From the top tools bar, select  and\nthen select the file.\nAdobe Photoshop,\nOr, select the hamburger menu  (Windows) or\nAdobe Illustrator, and\nFileCreatePDF from file\nthe  menu (macOS) >  >  and follow\nAdobe InDesign files\nthrough the workflow.\nMethod 2: Drag and drop the file from your system to the\nAcrobat Home page.\nCreate\nMethod 1: From the top tools bar, select  and then\nselect the file.\nOr, select the hamburger menu  (Windows) or\nPostScript and EPS files\nFileCreatePDF from file\nthe  menu (macOS) >  > and follow\nthrough the workflow.\nMethod 2: Drag and drop the file from your system to the\nAcrobat Distiller icon or Acrobat Distiller window.\nCreate\nMethod 1: From the top tools bar, select  and then\nselect the file.\nOr, select the hamburger menu  (Windows) or\nFileCreatePDF from file\nthe  menu (macOS) >  >  and follow\nthrough the workflow."
+    },
+    {
+      "level": "H2",
+      "text": "Balance PDF file size and quality ",
+      "page": 4,
+      "top": 623.6,
+      "sub_content": "You can select various settings to ensure that your PDF has the best balance between file size,\nresolution, conformity to specific standards, and other factors. The settings you select depend\non your goals for the PDF that you are creating. For example, a PDF intended for high-quality\ncommercial printing requires diﬀerent settings than a PDF intended only for onscreen viewing\nand quick downloading over the Internet.\nAcrobat Distiller\nOnce selected, these settings apply across PDFMaker, Acrobat, and .\nHowever, some settings are limited to specific contexts or file types. For example, PDFMaker\nMicrosoft Oﬃce\noptions can vary among the diﬀerent types of  applications.\nFor convenience, you can select one of the conversion presets available in Acrobat. You can\nalso create, define, save, and reuse custom presets that are uniquely suited to your purposes.\nFor scanned documents, you can choose from Autodetect Color Mode or several scanning\npresets that are optimized for scanning documents and images in color or black and white.\nYou can modify these presets or use your own custom scanning settings.\nThere are various ways to create a PDF file using Acrobat. You can generate a PDF quickly\nusing the convert to PDF tool, menu commands, dragging-and-dropping files onto the\nAcrobat application icon, or converting clipboard data."
+    },
+    {
+      "level": "H3",
+      "text": "3D files (Acrobat Pro) ",
+      "page": 4,
+      "top": 478.4,
+      "sub_content": "Method 2: Drag and drop the HTML file from your system to\nthe Acrobat Home page.\nMethod 3Adobe\n: From Microsoft PowerPoint, select\nPresenterPublish\n> ."
+    },
+    {
+      "level": "H1",
+      "text": "Convert a file to PDF using Acrobat menu ",
+      "page": 6,
+      "top": 78.7,
+      "sub_content": ""
+    },
+    {
+      "level": "H1",
+      "text": "commands ",
+      "page": 6,
+      "top": 105.5,
+      "sub_content": "1.Do any of the following:\nIn Acrobat, select  from the global toolbar.\n•Create\nThe Create a PDF tool opens. On the left rail,  is\nSingle file\nselected by default. Choose the  button.\nSelect a file\nSelect the hamburger menu  >  >  (Windows),"
+    },
+    {
+      "level": "H3",
+      "text": "•CreatePDF from File ",
+      "page": 7,
+      "top": 76.2,
+      "sub_content": "or  >  >  (macOS).\nFileCreatePDF from File\n2.In the Open dialog box, select the ﬁle that you want to convert. You can browse all ﬁle\ntypes or select a speciﬁc type from the Files Of Type drop-down menu.\n3.Optionally, select  to change the conversion options if you're\nAdvanced settings\nconverting an image file to PDF. The options available vary depending on the file type.\nNote:\nThe  button is unavailable if you choose  as the file type or\nAdvanced settingsAll Files\nif no conversion settings are available for the selected file type. (For example, the\nAdvanced settings button is unavailable for Microsoft Word and Microsoft Excel files.)\n4.Select  to convert the ﬁle to a PDF.\nCreate\nDepending on the type of ﬁle being converted, the authoring applica�on opens\nautoma�cally, or a progress dialog box appears. If the ﬁle is in an unsupported format, a\nmessage appears, telling you that the ﬁle cannot be converted to PDF.\n5.When the new PDF opens, choose the hamburger menu   >  or\nSaveSave\n(Windows),  >  or  >  (macOS), and then select a name and\nAsFileSaveFileSave As\nlocation for the PDF.\nNote:\nWhen naming a PDF that’s intended for electronic distribution, limit the filename to eight\ncharacters (with no spaces) and include the .pdf extension. This action ensures that email\nprograms or network servers don’t truncate the filename and that the PDF opens as expected."
+    },
+    {
+      "level": "H2",
+      "text": "Convert a file to PDF using the Convert to PDF tool ",
+      "page": 8,
+      "top": 184.3,
+      "sub_content": "1.In Acrobat, select  > ."
+    },
+    {
+      "level": "H2",
+      "text": "Drag-and-drop to create PDFs ",
+      "page": 8,
+      "top": 374.8,
+      "sub_content": "This method is best for small, simple files, such as small image files and plain text files, when\nthe balance between file size and output quality is not important. You can use this technique\nwith many other types of files, but you cannot adjust any conversion settings during the\nprocess.\n1.Select the icons of one or more files in the Windows Explorer or macOS Finder.\n2.Drag the file icons onto the Acrobat application icon. Or (Windows only) drag the files\ninto the open Acrobat window.\nIf a message appears saying that the file could not be opened in Acrobat, then that\nfile type cannot be converted to PDF by the drag-and-drop method. Use one of the\nother conversion methods for that file.\nNote:\nYou can also convert PostScript and EPS files to PDF by dragging them onto\nthe Acrobat window or the Acrobat application icon.\n3.Save the PDF.\nNote:\n(Windows only) You can also right-click a file in  and select"
+    },
+    {
+      "level": "H3",
+      "text": "All toolsConvert to PDF ",
+      "page": 8,
+      "top": 243.0,
+      "sub_content": "2.In the file explorer window that appears, select the file you want to convert to PDF,\nand select .\nOpen\n3.The selected file is converted to PDF and opens in Acrobat. Choose the hamburger\nmenu   >  or  (Windows),  >  or  >  (macOS),\nSaveSave AsFileSaveFileSave As\nand then select a name and location for the PDF."
+    },
+    {
+      "level": "H2",
+      "text": "Convert clipboard content to PDF ",
+      "page": 9,
+      "top": 155.8,
+      "sub_content": "You can create PDFs from text and images that you copy from applications on macOSor\nWindows.\n1.Capture content in the Clipboard:\nUse the copy command in the applications.\n•\nPrintScreen\nPress the  key (Windows).\n•\nApplicationsUtilitiesScreenshot\nUse the Screenshot utility ( >  > ), and\n•\nEditCopy\nchoose  >  to place the content on the clipboard (macOS).\nAll\nIn a PDF file, you can select objects using the Edit Object tool (\n•\ntoolsUse print productionEdit object\n>  > ), and then copy the selected\nobjects.\n•\nCreateClipboard  Create All toolsCreate a\n2.In Acrobat, choose  > >,or choose  >\nPDFClipboardCreate\n>  > .\nNote:\nThe PDF from Clipboard command appears only when content is copied to the\nClipboard. If the Clipboard is empty, the command is disabled."
+    },
+    {
+      "level": "H3",
+      "text": "Windows ExplorerConvert ",
+      "page": 9,
+      "top": 97.7,
+      "sub_content": ".\nto Adobe PDF"
+    },
+    {
+      "level": "H2",
+      "text": "Create a blank PDF ",
+      "page": 10,
+      "top": 76.8,
+      "sub_content": "You can create a blank PDF, rather than beginning with a file, a clipboard image, or scanning.\nThis process can be useful for creating a one-page PDF. For longer, more complex, or heavily\nformatted documents, it’s better to create the source document in an application that offers\nmore layout and formatting options, such as Adobe InDesign or .\nMicrosoft Word\nDo any of the following:\nIn Acrobat, select  from the global bar."
+    },
+    {
+      "level": "H3",
+      "text": "•Create ",
+      "page": 10,
+      "top": 198.3,
+      "sub_content": "The Create a PDF tool opens. On the le� rail, select , and then select .\nBlank pageCreate\nSelect the hamburger menu  >  >  (Windows),"
+    },
+    {
+      "level": "H3",
+      "text": "•CreateBlank Page ",
+      "page": 10,
+      "top": 664.4,
+      "sub_content": "or  >  >  (macOS).\nFileCreateBlank Page\nAcrobat creates a blank page PDF."
+    },
+    {
+      "level": "H2",
+      "text": "Create multiple PDFs from multiple files ",
+      "page": 11,
+      "top": 158.2,
+      "sub_content": "You can create multiple PDFs from multiple native files, including files of different supported\nformats, in one operation. This method is useful when you must convert a large number of files\nto PDF.\n: When you use this method, Acrobat applies the most recently used conversion settings"
+    },
+    {
+      "level": "H2",
+      "text": "About Acrobat PDFMaker ",
+      "page": 11,
+      "top": 478.7,
+      "sub_content": "PDFMaker is an Acrobat feature that operates within many business applications, such as\nMicrosoft Office applications, AutoCAD, and Lotus Notes. When you install Acrobat,\nPDFMaker controls appear in the work area of the authoring application.\nNote:\nSome PDFMaker features are not available in certain versions of the authoring\napplications. For a comparison chart, see Compatible web browsers and PDFMaker\napplications | Acrobat, Reader."
+    },
+    {
+      "level": "H3",
+      "text": "Note: ",
+      "page": 11,
+      "top": 75.6,
+      "sub_content": "To add a blank page to an existing PDF, open the PDF and then choose  >\nEditOrganize\n>  > ."
+    },
+    {
+      "level": "H3",
+      "text": "pagesInsertBlank page ",
+      "page": 11,
+      "top": 112.4,
+      "sub_content": ""
+    },
+    {
+      "level": "H3",
+      "text": "Note ",
+      "page": 11,
+      "top": 235.0,
+      "sub_content": "without offering you access to those settings. If you want to adjust the conversion settings, do\nso before using this method.\n1.In Acrobat, select  from the global bar.\nCreate\n2.The Create a PDF tool opens. On the le� rail, select >\nMul�ple ﬁles Create mul�ple\n, and then select .\nPDF ﬁlesNext\n3.Choose  >  or , and then select the ﬁles or folder.\nAdd FilesAdd FilesAdd Folders\n4.Select . The Output op�ons dialog box appears.\nOK\n5.In the  dialog box, specify your target folder and ﬁlename\nOutput Op�ons\npreferences, and then select .\nOK\nUsing PDFMaker within an authoring application is a simple, one-click procedure. It involves\nclicking an Acrobat PDFMaker toolbar button or choosing a command on the Adobe PDF menu."
+    },
+    {
+      "level": "title",
+      "text": "Using Create PDF cloud service for PDF ",
+      "page": 12,
+      "top": 95.0,
+      "sub_content": ""
+    },
+    {
+      "level": "title",
+      "text": "conversion ",
+      "page": 12,
+      "top": 124.3,
+      "sub_content": "Acrobat provides an option to use Adobe Create PDF cloud service in addition to a local\nconversion to convert Microsoft Word documents to PDFs. The created PDFs are high-quality\nand provide exceptional visual fidelity. They are well-tagged for better accessibility. They also\ninclude link recognition so that hyperlinks, internal document links, and tables of contents are\ncreated as live links."
+    },
+    {
+      "level": "title",
+      "text": "Convert a file to PDF using PDFMaker ",
+      "page": 13,
+      "top": 95.0,
+      "sub_content": "In Windows, Acrobat installs both an Acrobat PDFMaker toolbar and an  menu in\nAdobe PDF\nmany popular authoring applications. You can use either the toolbar buttons or the\nAdobe\nmenu (the  menu in Lotus Notes) to create PDFs, but the menu also provides access"
+    },
+    {
+      "level": "H2",
+      "text": "Show or activate PDFMaker in Microsoft Office and Lotus Notes ",
+      "page": 13,
+      "top": 333.4,
+      "sub_content": "If the PDF toolbar buttons don’t appear in your Microsoft Office or Lotus Notes application, use\none of the following methods to show or activate PDFMaker.\nFor Lotus Notes 9, choose  > . In the dialog box that appears,\nFilePreferences\nchoose  > , and select the Visible option for .\nToolbarToolbarsAcrobat PDFMaker"
+    },
+    {
+      "level": "H3",
+      "text": "PDFAction ",
+      "page": 13,
+      "top": 164.9,
+      "sub_content": "to conversion settings. Although many of the conversion options are common to all authoring\napplications, a few are application-specific.\nFor Microsoft Office applications such as Word, Excel, and PowerPoint, the options for creating\nPDFs are available from the  ribbon.\nAcrobat"
+    },
+    {
+      "level": "H3",
+      "text": "Note: ",
+      "page": 13,
+      "top": 253.2,
+      "sub_content": "If you don’t see the PDF toolbar buttons in an application, you must show or activate the PDF\ntoolbar. For other troubleshooting issues, see Troubleshoot Acrobat PDFMaker Problems."
+    },
+    {
+      "level": "H3",
+      "text": "For Microsoft Office, follow these steps: ",
+      "page": 13,
+      "top": 432.3,
+      "sub_content": "1.Select the  tab, and then choose .\nFileOptions\n2.Select Add-Ins on the left side of the dialog box.\n3.Do one of the following:\nIf PDFMOutlook or  isn't listed, choose\n•Acrobat PDFMaker Office COM Add-in\nCOM Add-Ins from the Manage pop-up menu and select .\nGo\nIf PDFMOutlook or  is listed under\n•Acrobat PDFMaker Office COM Add-in\nDisabled Application Add-ins, select Disabled Items from the Manage pop-up\nmenu and select .\nGo\n4.Select PDFMOutlook or  and select .\nAcrobat PDFMaker Office COM Add-inOK\n5.Restart the Office application."
+    },
+    {
+      "level": "H2",
+      "text": "Convert a file to PDF ",
+      "page": 14,
+      "top": 76.8,
+      "sub_content": "1.Open the file in the application used to create it.\n2.Select the  button  on the  toolbar.\nConvert To Adobe PDFAcrobat PDFMaker\nFor Microsoft Office applications, such as Word, Excel, and PowerPoint, select\nthe  button   on the  ribbon."
+    },
+    {
+      "level": "H2",
+      "text": "Create a PDF and share the link for viewing or commenting ",
+      "page": 14,
+      "top": 285.4,
+      "sub_content": "Applicable to Microsoft Word, Excel, and PowerPoint\n1.Open the file in the application used to create it.\n2.Do any of the following:\nFrom the  tab, choose ."
+    },
+    {
+      "level": "H3",
+      "text": "Create PDFAcrobat ",
+      "page": 14,
+      "top": 183.6,
+      "sub_content": "3.Enter a filename and location for the PDF, and select .\nSave\n4.(Optional) Check  to open the PDF or enable  to specify\nView ResultProtect PDF\nthe  settings for the PDF."
+    },
+    {
+      "level": "H3",
+      "text": "Security ",
+      "page": 14,
+      "top": 242.4,
+      "sub_content": ""
+    },
+    {
+      "level": "H3",
+      "text": "•HomeCreate PDF and share link ",
+      "page": 14,
+      "top": 372.3,
+      "sub_content": "Select  >  >  > .\n•FileShareCreate PDF and share linkCreate PDF and Share link\nSelect  > ."
+    },
+    {
+      "level": "H2",
+      "text": "Create a PDF and share via Outlook ",
+      "page": 15,
+      "top": 605.7,
+      "sub_content": "Applicable to Microsoft Word, Excel, and PowerPoint\n1.Open the file in the application used to create it.\n2.Do any of the following:\nFrom the  tab, choose .\n•HomeCreate PDF and Share via Outlook\nFrom the  tab, choose ."
+    },
+    {
+      "level": "H3",
+      "text": "•FileShare as Adobe PDF link ",
+      "page": 15,
+      "top": 75.6,
+      "sub_content": "3.Acrobat converts the file to PDF, displays it in Acrobat, and copies the shareable link.\nYou can share the link with the desired recipients."
+    },
+    {
+      "level": "H3",
+      "text": "•AcrobatCreate PDF and Share via Outlook ",
+      "page": 16,
+      "top": 153.2,
+      "sub_content": "Select  >  >  > ."
+    },
+    {
+      "level": "H3",
+      "text": "•FileShareEmailCreate PDF and Share via Outlook ",
+      "page": 16,
+      "top": 272.3,
+      "sub_content": "3.Acrobat converts the file into a PDF, creates a shareable link, and opens Outlook with\nthe link in a new message draft.\n4.You can edit the message as desired, add the recipient's email addresses, and then\nselect .\nSend"
+    },
+    {
+      "level": "H2",
+      "text": "Create a PDF as an email attachment ",
+      "page": 17,
+      "top": 76.8,
+      "sub_content": "1.Open the file in the application used to create it.\nAdobe PDFConvert To Adobe PDF And Email\n2.Choose  > .\nFor Microsoft Office applications, such as Word, Excel, and PowerPoint, click\nCreate And ShareAcrobat\nthe  button on the  ribbon.\nWhen the conversion has finished, the PDF is opened in Adobe Acrobat. Click\nSend File By Email\nthe  icon ( ) in Acrobat. For more information, see Share a\nPDF as an email attachment."
+    },
+    {
+      "level": "H2",
+      "text": "Attach a file as PDF (Outlook) ",
+      "page": 17,
+      "top": 290.4,
+      "sub_content": "1.In the Outlook email Message window, click >  button.\nAcrobat Attach as Adobe PDF\n2.Select a file to attach, and click .\nOpen"
+    },
+    {
+      "level": "H2",
+      "text": "Convert files to a secured PDF and attach it to an email message ",
+      "page": 17,
+      "top": 376.2,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "(Outlook) ",
+      "page": 17,
+      "top": 395.8,
+      "sub_content": "1.In the Outlook email Message window, click the\nAttach As Secured Adobe\nbutton .\nPDF\nNote:\nThe  button appears only after you’ve configured an\nAttach As Secured Adobe PDF\nAdobe Experience Manager Document Security using the  >\nAll toolsProtect a\n>  > .\nPDFSet Security PropertiesSecurity Method\n2.Click , select a file to convert, and click .\nBrowseOpen\n3.Specify the users that can open the PDF, and then click :\nOK\nTo specify only users that receive the PDF, select\n•Restrict Access Only To\n: List. In this case, the PDF isn’t\nPeople In This Message’s To:, Cc:, And Bcc\nsecured until you send the email message.\nTo specify only users that are specified by a security policy, select\n•Restrict\n, and then select a security\nAccess By Applying The Following Security Policy\npolicy in the list. In this case, the PDF is secured before it is attached to the\nemail message.\n4.If prompted, enter your user name and password to log in to the Adobe\nLiveCycleRights Management Server."
+    },
+    {
+      "level": "H2",
+      "text": "Create a PDF and send it for review ",
+      "page": 18,
+      "top": 133.1,
+      "sub_content": "1.Open the file in the application used to create it.\n2.Click the  button  on the Acrobat\nConvert To Adobe PDF And Send For Review\nPDFMaker toolbar, or (if available) choose  >\nAdobe PDFConvert To Adobe PDF And\n.\nSend For Review\n3.When the  dialog box appears, enter the appropriate information\nIdentity Setup\nabout yourself, and click .\nComplete\n4.Follow the directions in the wizard that appears, as described in Start an email-based\nreview."
+    },
+    {
+      "level": "H2",
+      "text": "Create a PDF and run an action ",
+      "page": 18,
+      "top": 334.5,
+      "sub_content": "1.Open the file in the application used to create it.\n2.Click the  button on the Acrobat PDFMaker\nConvert To Adobe PDF And Run Action\ntoolbar, or (if available) choose  > .\nAdobe PDFConvert To Adobe PDF And Run Action\nFor Microsoft Office 2010 applications such as Word, Excel, and PowerPoint, click\nthe  button on the  ribbon.\nCreate PDF And Run ActionAcrobat\n3.Click an action to from the button menu, and follow the onscreen prompts to save\nthe files.\n4.The PDF opens in Acrobat. Click Start in the right-hand pane to process the file."
+    },
+    {
+      "level": "title",
+      "text": "View PDFMaker conversion settings ",
+      "page": 19,
+      "top": 79.2,
+      "sub_content": "PDFMaker conversion settings vary according to file types. For example, the options available\nfor PowerPoint files aren’t the same as the options available for Outlook files. Once you’ve\nselected conversion settings, those choices apply to all subsequent PDFs you create from that\nfile type. It’s a good idea to review the settings occasionally.\n1.Open a PDFMaker-enabled application (such as Word or Excel).\n2.Do one of the following:\n(Lotus Notes) Choose Actions > .\n•Change Adobe PDF Conversion Settings\n(Office 2010 applications) In the  or  ribbon,\n•AcrobatAdobe PDF\nclick .\nPreferences\n(All other applications) Choose  > .\n•Adobe PDFChange Conversion Settings\n3.(Optional) To revert to the original default settings, click  on\nRestore Defaults\nthe  tab.\nSettings"
+    },
+    {
+      "level": "H2",
+      "text": "Settings tab of the Adobe PDFMaker preferences ",
+      "page": 19,
+      "top": 384.5,
+      "sub_content": "The settings available for PDFMaker depend on the application in which you’re using\nPDFMaker."
+    },
+    {
+      "level": "H3",
+      "text": "Conversion Settings ",
+      "page": 19,
+      "top": 447.1,
+      "sub_content": "Specifies the standard by which the PDF will be optimized. When you choose an item in the\nmenu, a description of that preset appears immediately below it."
+    },
+    {
+      "level": "H3",
+      "text": "View Adobe PDF Result ",
+      "page": 19,
+      "top": 506.1,
+      "sub_content": "Opens the converted document directly into Acrobat. (Exception: when you choose\nConvert To\n.)"
+    },
+    {
+      "level": "H3",
+      "text": "Adobe PDF And Email ",
+      "page": 19,
+      "top": 542.9,
+      "sub_content": ""
+    },
+    {
+      "level": "H3",
+      "text": "Prompt For Adobe PDF File Name ",
+      "page": 19,
+      "top": 565.0,
+      "sub_content": "Lets you enter a custom filename for the resulting PDF. Deselect this option to save the file in\nthe same folder as the source file, using the same name but with a .pdf extension."
+    },
+    {
+      "level": "H3",
+      "text": "Convert Document Information ",
+      "page": 19,
+      "top": 623.9,
+      "sub_content": "Adds document information from the dialog box of the source file. This setting\nProperties\noverrides the printer preferences and settings in the panel of the\nAdvanced Adobe PDF\ndialog box."
+    },
+    {
+      "level": "H3",
+      "text": "Settings ",
+      "page": 19,
+      "top": 675.4,
+      "sub_content": "Note:\nThe  button opens the  dialog box, which contains many\nAdvanced SettingsAdobe PDF Settings\nadditional conversion options. These conversion settings apply to all Acrobat features that\ncreate PDFs, such as Acrobat Distiller, PDFMaker, and the Acrobat application itself.\nPDF/A Compliance\nCreates the PDF so that it conforms to the selected ISO standard for long-term preservation of\nelectronic documents."
+    },
+    {
+      "level": "H2",
+      "text": "Security tab of the Adobe PDFMaker preferences ",
+      "page": 20,
+      "top": 209.7,
+      "sub_content": "The settings available for PDFMaker depend on the application in which you’re using\nPDFMaker.\nRequire A Password To Open The Document\nWhen selected, makes the  option available, where you enter a\nDocument Open Password\npassword that users must use to open the document.\nRestrict Editing And Printing Of The Document\nWhen selected, makes the other  options available.\nPermissions\nChange Permissions Password\nSpecifies a password you set that users must use in order to do any allowable printing or\nediting.\nPrinting Allowed\nSpecifies whether users who use the  can print the document and at\nPermissions Password\nwhat resolution.\nChanges Allowed\nSpecifies what changes users who use the  can make.\nPermissions Password\nEnable Copying Of Text, Images, And Other Contents\nPrevents or allows users from copying from the PDF.\nEnable Text Access For Screen Reader Devices For The Visually Impaired\nPrevents or allows screen reader devices to read text. (Selected by default.)\nEnable Plaintext Metadata\nSpecifies whether the search engine can read the document metadata. Available only when the\nPDF-compatibility is set to Acrobat 6.0 (PDF 1.5) or later."
+    },
+    {
+      "level": "title",
+      "text": "Convert Microsoft Word, PowerPoint, and ",
+      "page": 21,
+      "top": 95.0,
+      "sub_content": ""
+    },
+    {
+      "level": "title",
+      "text": "Excel files to PDF ",
+      "page": 21,
+      "top": 124.3,
+      "sub_content": "When creating a PDF from Microsoft Word, PowerPoint, or Excel, you can set conversion\noptions for the current file. You can also select a range of content in the file to convert. The\nconversion options that you can set in the following steps are some of the most commonly used\nsettings from the  dialog box. Any changes you make to the conversion\nAcrobat PDFMaker\noptions apply to the current conversion only."
+    },
+    {
+      "level": "H2",
+      "text": "Convert Excel files to PDF ",
+      "page": 21,
+      "top": 266.4,
+      "sub_content": "1.Open a file in Excel.\n2.Optionally, select the cells to convert.\n3.From the  ribbon, select one of the  options.\nAcrobatCreate\n4.In the  dialog box, select a , then\nAcrobat PDFMakerConversion Range\nchoose .\nConvert To PDF\n5.In the  dialog box, specify a filename and location for the PDF.\nSave Adobe PDF File As\n6.Optionally, select the  button to change the conversion settings.\nOptions\n7.Select  to create the PDF.\nSave"
+    },
+    {
+      "level": "H2",
+      "text": "Convert Word and PowerPoint files to PDF ",
+      "page": 21,
+      "top": 482.7,
+      "sub_content": "1.Open a file in Word or PowerPoint.\n2.Optionally, select objects and text (Word) or slides (PowerPoint), as needed.\n3.(Office 2010) From the Acrobat ribbon, select Create PDF, Create And Attach to Email,\nor Create And Send For Review.\n4.In the  dialog box, specify a filename and location for the PDF.\nSave Adobe PDF File As\n5.Optionally, click the  button to change the conversion settings.\nOptions\n6.Select a  (Word) or  (PowerPoint). The Selection option is\nPage RangeSlide Range\navailable only if you have selected content in the file.\n7.Click , then click  to create the PDF.\nOKSave"
+    },
+    {
+      "level": "title",
+      "text": "Convert email messages to PDFs ",
+      "page": 22,
+      "top": 95.0,
+      "sub_content": "You can use PDFMaker to convert one or more Microsoft Outlook or Lotus Notes email\nmessages or entire folders of messages to a merged PDF or . Within a\nPDF PortfolioPDF\n, each email message appears as a separate PDF file."
+    },
+    {
+      "level": "H2",
+      "text": "Specify whether email messages become merged PDFs or PDF ",
+      "page": 22,
+      "top": 401.9,
+      "sub_content": ""
+    },
+    {
+      "level": "H2",
+      "text": "Portfolios ",
+      "page": 22,
+      "top": 421.4,
+      "sub_content": "1.Do one of the following:\n(Outlook) Choose  > .\n•AcrobatChange Conversion Settings\n(Lotus Notes) Choose Actions > .\n•Change Adobe PDF Conversion Settings\n2.Do one of the following:\nTo convert and merge email messages into a PDF as sequential pages of one\n•\ndocument, deselect\nOutput Adobe PDF Portfolio When Creating A New PDF\n.\nFile\nTo assemble converted email messages as components of a ,\n•PDF Portfolio\nselect.\nOutput Adobe PDF Portfolio When Creating A New PDF File"
+    },
+    {
+      "level": "H2",
+      "text": "Convert an open email message to PDF (Outlook) ",
+      "page": 22,
+      "top": 638.2,
+      "sub_content": "1.Choose  > .\nAcrobatConvert To Adobe PDF\nYou can also convert a different file to PDF from within an open Outlook email message if\nNote:\nthe  toolbar is shown. Clicking this button opens a series of dialog boxes\nAttach As Adobe PDF\nfor selecting and saving the new PDF and also starts Acrobat, if it is not already running. The\nresulting PDF is attached to the open email message."
+    },
+    {
+      "level": "H3",
+      "text": "Portfolio ",
+      "page": 22,
+      "top": 164.9,
+      "sub_content": "The  dialog box contains the option that determines\nAcrobat PDFMaker Conversion Settings\nwhether email messages are merged into one continuous PDF or assembled into a\nPDF\n.\nPortfolio\nThe controls that activate an email conversion to PDF appear in two places within the email\napplication: on the  toolbar and on a menu. In Outlook, the menu is\nAcrobat PDFMaker\ncalled  and appears to the right of the Outlook Help menu. In Lotus Notes, PDF\nAdobe PDF\ncommands appear under the Actions menu."
+    },
+    {
+      "level": "H3",
+      "text": "Note: ",
+      "page": 22,
+      "top": 304.6,
+      "sub_content": "You can convert one currently open email message to PDF (not to a ) by\nPDF Portfolio\nchoosing > , and selecting  as the printer in the dialog box. The\nFile PrintAdobe PDFPrint\nPDFMaker conversion settings do not affect this process."
+    },
+    {
+      "level": "H2",
+      "text": "Convert email messages to a new PDF ",
+      "page": 23,
+      "top": 125.6,
+      "sub_content": "1.In Outlook or Lotus Notes, select the individual email messages.\n2.Do one of the following:\n(Outlook) Choose  > > ."
+    },
+    {
+      "level": "H2",
+      "text": "Add email messages or folders to an existing PDF ",
+      "page": 23,
+      "top": 284.1,
+      "sub_content": "1.In Outlook or Lotus Notes, select the individual email messages or folders.\n2.Do one of the following:\n(Outlook) Choose  >  > ,"
+    },
+    {
+      "level": "H3",
+      "text": "•Acrobat Selected MessagesCreate New PDF ",
+      "page": 23,
+      "top": 188.3,
+      "sub_content": "(Lotus Notes) Choose Actions > ."
+    },
+    {
+      "level": "H3",
+      "text": "•Convert Selected Messages To Adobe PDF ",
+      "page": 23,
+      "top": 207.4,
+      "sub_content": "3.In the dialog box, select a location, type a filename, and\nSave Adobe PDF As\nclick .\nSave"
+    },
+    {
+      "level": "H3",
+      "text": "•AcrobatSelected MessagesAppend To Existing PDF ",
+      "page": 23,
+      "top": 346.7,
+      "sub_content": "or  >  > .\nAcrobatSelected FoldersAppend To Existing PDF\nIf you have already created one or more , you can choose from\nNote:PDF Portfolios\nrecently created  in addition to the  option.\nPDF PortfoliosAppend To Existing PDF\n(Lotus Notes) Choose Actions >"
+    },
+    {
+      "level": "H3",
+      "text": "•Append Selected Message(s) To Existing ",
+      "page": 23,
+      "top": 437.3,
+      "sub_content": ", or Actions > .\nAdobe PDFAppend Selected Folder(s) To Existing Adobe PDF\n3.Locate and select the PDF or  to which you want to add the converted\nPDF Portfolio\nemails, and click .\nOpen\nDo not type a new name for the PDF. If you do, a warning message appears\nNote:\ntelling you that the PDF was not found. Click , and select a PDF without changing\nOK\nits name.\n4.(Outlook only) If a message appears, alerting you that the existing PDF was created\nusing an earlier version of PDFMaker, do one of the following:\nTo create a  from the original PDF archive, click , and select a"
+    },
+    {
+      "level": "H3",
+      "text": "•PDF PortfolioYes ",
+      "page": 23,
+      "top": 643.8,
+      "sub_content": "_Portfolio\nname and location for the new archive. (The default name adds  to\nthe original PDF filename.) When the conversion is complete and the\nCreating\ndialog box closes, the new archive opens in Acrobat.\nAdobe PDF\nClick  to cancel the process.\n•No\nNote:\nFor  of email converted or migrated in Acrobat 8 or later, only new messages—\nPDF Portfolios\nthat is, messages that are not already part of the —are appended.\nPDF Portfolio"
+    },
+    {
+      "level": "H2",
+      "text": "Convert email folders to a new PDF ",
+      "page": 24,
+      "top": 155.8,
+      "sub_content": "PDFMaker can convert multiple folders to PDF in one procedure. It is not necessary to select the\nfolders at the beginning of the process because you can select them in a dialog box that\nappears automatically.\n1.Do one of the following:\n(Outlook) Choose  >  > ."
+    },
+    {
+      "level": "H3",
+      "text": "•AcrobatSelected FoldersCreate New PDF ",
+      "page": 24,
+      "top": 255.2,
+      "sub_content": "(Lotus Notes) Choose Actions > ."
+    },
+    {
+      "level": "H3",
+      "text": "•Convert Selected Folder(s) To Adobe PDF ",
+      "page": 24,
+      "top": 274.4,
+      "sub_content": "2.In the  dialog box, select the folders. Then select or deselect\nConvert Folder(s) To PDF\nthe  option."
+    },
+    {
+      "level": "H3",
+      "text": "Convert This Folder And All Sub Folders ",
+      "page": 24,
+      "top": 308.1,
+      "sub_content": "3.In the , select a location and name for the .\nSave Adobe PDF File AsPDF Portfolio\nWhen the conversion is complete, the new PDF opens in Acrobat."
+    },
+    {
+      "level": "title",
+      "text": "Set up automatic email archiving ",
+      "page": 25,
+      "top": 95.0,
+      "sub_content": "1.Do one of the following:\n(Outlook) Choose  > ."
+    },
+    {
+      "level": "H3",
+      "text": "•AcrobatSetup Automatic Archival ",
+      "page": 25,
+      "top": 157.8,
+      "sub_content": "(Lotus Notes) Choose Actions > ."
+    },
+    {
+      "level": "H3",
+      "text": "•Setup Automatic Archival ",
+      "page": 25,
+      "top": 176.9,
+      "sub_content": "2.On the  tab of the  dialog box, select\nAutomatic ArchivalAcrobat PDFMakerEnable\n. Then select options for  and the time of day at which\nAutomatic ArchivalFrequency\nautomatic archiving occurs.\n3.Select other options, according to your needs:\nMaintain Log Of Archival\nCreates a record of each archiving session.\nChoose File\nSpecifies the name and location of the archiving log.\nEmbed Index For Faster Search\nCreates an index that you can search to find specific words or characters instead of\nhaving to search each individual document.\n4.Click , and select the email folders and subfolders. Then select or deselect\nAdd\nthe  option, as preferred, and click ."
+    },
+    {
+      "level": "H3",
+      "text": "Convert This Folder And All Sub FoldersOK ",
+      "page": 25,
+      "top": 470.3,
+      "sub_content": "5.In the  dialog box, select a name and location for the\nSave PDF Archive File As\narchived email PDF. Then click .\nOpen\n6.Review the settings and the archive folder names listed in the\nAcrobat\ndialog box, and do any of the following:\nPDFMaker\nTo add other email folders to the list, click  and select the folder."
+    },
+    {
+      "level": "H3",
+      "text": "•Add ",
+      "page": 25,
+      "top": 566.0,
+      "sub_content": "To remove folders from the list, select the folders and click ."
+    },
+    {
+      "level": "H3",
+      "text": "•Delete ",
+      "page": 25,
+      "top": 585.2,
+      "sub_content": "To change an archive file, select any folder name from the list, click"
+    },
+    {
+      "level": "H3",
+      "text": "•Change ",
+      "page": 25,
+      "top": 604.4,
+      "sub_content": ", and specify the name and location.\nArchive File\nTo start archiving email immediately, click .\n•Run Archival Now"
+    },
+    {
+      "level": "title",
+      "text": "Create PDFs from Word mail merges ",
+      "page": 26,
+      "top": 79.2,
+      "sub_content": "Mail merges from Word generate documents like form letters—for one common example—\nthat are personalized with information like the names and addresses of the recipients. With\nAcrobat PDFMaker, you can save steps by using a Word mail merge document and\ncorresponding data file to output mail merges directly to PDF. You can even set up PDFMaker to\nattach those PDFs to email messages that are generated during the PDF-creation process.\nNote:\nFor information on setting up files for the Word Mail Merge feature, see Microsoft Office Word\nHelp.\n1.In Microsoft Word, open the template that you have created as the basis of your mail\nmerge, or create the file using the Word Mail Merge toolbar and Mail Merge wizard,\nas needed.\nDo not complete the mail merge in Word. Instead, set up and preview the mail\nNote:\nmerge as usual, so that you can verify that the merge will work correctly.\n2.Do one of the following:\nChoose  > ."
+    },
+    {
+      "level": "H3",
+      "text": "•AcrobatMail Merge ",
+      "page": 26,
+      "top": 383.3,
+      "sub_content": "Click the  button on the Mail Merge toolbar (View >"
+    },
+    {
+      "level": "H3",
+      "text": "•Mail Merge To Adobe PDF ",
+      "page": 26,
+      "top": 402.4,
+      "sub_content": "Toolbars > Mail Merge).\n3.In the  dialog box, select the options you want:\nAcrobat PDFMaker - Mail Merge\nTo specify which records in the data file will be imported into the merged\n•\nfiles, select  or , or enter a range of pages by typing in\nAllCurrent\nthe  and  boxes.\nFromTo\nTo name the PDF that will be created, type in the  box."
+    },
+    {
+      "level": "H3",
+      "text": "•Specify PDF File Name ",
+      "page": 26,
+      "top": 519.6,
+      "sub_content": "The PDF will be named using this text plus a series of numbers. For example, if\nNote:\nyou type  in the  box, the mail-merged PDFs\nSpecify PDF File Name\nJulyLetter\nmight appear as JulyLetter_0000123, JulyLetter_0000124, JulyLetter_0000125, and\nso forth.\n4.For l, do one of the following:"
+    },
+    {
+      "level": "H3",
+      "text": "Automatically Send Adobe PDF Files By Emai ",
+      "page": 26,
+      "top": 625.2,
+      "sub_content": "To create and save merged PDFs for printing or sending later in email, leave\n•\nthe option deselected, and click .\nOK\nTo create merged PDFs and attach each one to an email message to the\n•\nappropriate recipient, select this check box, and fill in the other Email options.\n5.When the  dialog box appears, navigate to the location you want\nBrowse For Folder\nto use and click ."
+    },
+    {
+      "level": "H2",
+      "text": "Email options for PDF mail merges ",
+      "page": 27,
+      "top": 227.1,
+      "sub_content": "To\nUse the pop-up menu to select the field or column in the associated data file that contains the\nemail addresses in each individual’s record.\nSubject Line\nType the text that you want to appear in the subject line of each message.\nMessage\nType to add or edit text that you want to appear in the body of the email messages."
+    },
+    {
+      "level": "H3",
+      "text": "OK ",
+      "page": 27,
+      "top": 90.2,
+      "sub_content": "Status indicators appear as PDFMaker generates the individual PDFs,\n6.If you selected , a dialog box appears\nAutomatically Send Adobe PDF Files By Email\nasking for your email profile. Enter the appropriate information and click .\nOK\nWhen the job has finished, a message appears, telling you that the process was successful."
+    },
+    {
+      "level": "title",
+      "text": "Convert Visio files to PDF (Acrobat Pro) ",
+      "page": 28,
+      "top": 95.0,
+      "sub_content": "PDFs created from Visio files preserve page sizes and support layers, searchable text, custom\nproperties, links, bookmarks, and comments, depending on the conversion settings. To specify"
+    },
+    {
+      "level": "H2",
+      "text": "Convert Visio files ",
+      "page": 28,
+      "top": 347.5,
+      "sub_content": "1.If you want to change the PDFMaker conversion settings, do the following. (For\ninformation about a setting, place the pointer over the setting to display a tool tip\nbelow.)\n(Visio 2010) Choose  >\n•AcrobatPreferences\n2.If you want to convert each page in the Visio file to a bookmarked page in the PDF\nfile, choose  > . If this option is deselected,\nAdobe PDFConvert All Pages In Drawing\nonly the current page is converted.\n3.Do one of the following:\n(Visio 2010) Choose  > .\n•AcrobatCreate PDF\n(Visio 2010) Choose  > .\n•AcrobatConvert To Adobe PDF\n(Visio 2010) Choose  > . The PDF file\n•AcrobatCreate and Attach To Email\nattaches to a new email message in your default email application.\n(Visio 2010) Choose  > . The file converts\n•AcrobatCreate and Send For Review\nto an Adobe PDF file, and an email-based review process begins.\n4.If you want to include the custom properties of shapes, select that option.\n5.Click .\nContinue\n6.Select a layers option to retain or flatten layers in the resulting PDF, and\nclick .\nContinue"
+    },
+    {
+      "level": "H3",
+      "text": "the properties ",
+      "page": 28,
+      "top": 164.5,
+      "sub_content": "(Visio 2010) From the ribbon choose  >\n•AcrobatPreferences\nWhen you convert your Visio file, only shapes and guides that are printable and visible in the\nVisio drawing are converted and appear in the PDF. Shapes are converted regardless of their\nprotection or behavior. Shape custom properties can be converted to PDF object data.\nWhen you convert the Visio file to a PDF, you can preserve all or just some layers, or you can\nflatten all layers. If you flatten layers, the PDF will look like the original drawing, but won’t\ncontain any layer information. When flattened, the contents of only visible and printable layers\nwill appear in the converted PDF."
+    }
+  ]
+}

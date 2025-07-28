@@ -1,0 +1,173 @@
+{
+  "title": "Share  ",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "PDF sharing options ",
+      "page": 1,
+      "top": 445.5,
+      "sub_content": "Add name or email to invite\n- Enter the name or email of the recipient. If necessary,\n•\nadd a message, or Add deadline, and select Invite.\nAdd name or email to invite\nCreate a link and share using third-party apps.\nWhen you select any available third-\n•\nparty app like Microsoft Outlook, Gmail, WhatsApp, Microsoft Teams, or the default\nemail client, Acrobat creates a shareable link and opens the respective application\nCreate a link to share\nwith the copied link in the message draft. Alternatively, select ,\nthen copy and share it with the intended recipients."
+    },
+    {
+      "level": "H1",
+      "text": "Send an anonymous or public link in an email ",
+      "page": 3,
+      "top": 416.2,
+      "sub_content": "An anonymous or public link makes the files accessible to anyone who clicks the link.\nFollow the steps below to create a review link, and share it using your email client.\n1.Open the PDF in Acrobat.\nShare\n2.Select  in the upper right. You get either of the two options:\nGet linkGet\n: You get this option when a file isn't synced to the cloud. Select\n•\nlink\nto sync the file to the cloud. Once the file is synced, the get link option\nCopy linkCopy link\nchanges to . Select  and share it as desired.\n•\nCopy link: You get this option if the file is already synced to the cloud or shared\nwith someone.\nPeople can comment\n3.By default, the  switch is turned on. To share the file only for\nAnyone can access and comment\nviewing, select  in the Share dialog box, and then\nPeople can comment\nswitch the toggle next to  to turn it off.\n4.The link is created and copied by default. Share the link with other recipients. You can\nalso perform any of the following actions from the right pane:\nAdd People: Share\nSelect , then enter the email addresses of the people you\n•\nwant to share the file with.\nUnshare File: Share.\nSelect  The profile icons of the people you have shared the\n•\nShared with\nfile with are displayed next to . Select the profile icon to open the\nUnshare\nShared with the dialog box. Select  in the lower-right to stop sharing\nthe file with others."
+    },
+    {
+      "level": "H3",
+      "text": "Share a link to the file ",
+      "page": 3,
+      "top": 373.3,
+      "sub_content": ""
+    },
+    {
+      "level": "H1",
+      "text": "Mark up text ",
+      "page": 5,
+      "top": 462.1,
+      "sub_content": "You can use markup tools to give suggestions for formatting the text, structuring a document,\nor for providing other edit suggestions. Markups and comments don’t change the actual text\nin the PDF.\nNote:Insert text Replace selected text\nThe and commenting tools are now available for\nshared PDF files, making it easier for you to suggest changes and provide feedback directly\nwithin the document."
+    },
+    {
+      "level": "title",
+      "text": "Highlight, strikethrough, or underline text ",
+      "page": 6,
+      "top": 77.6,
+      "sub_content": ""
+    },
+    {
+      "level": "title",
+      "text": "comment ",
+      "page": 6,
+      "top": 107.1,
+      "sub_content": "You can use the Select text or Markup tools to add markups to your text."
+    },
+    {
+      "level": "H1",
+      "text": "Using Select Text Tool ",
+      "page": 6,
+      "top": 164.6,
+      "sub_content": "1.Open a PDF.\n2.Use the Select text tool to select the text you want to mark up.\n3.From the markup toolbar that appears, take one of the following actions as desired:\nTo highlight text, select Highlight text\n•\nTo strikethrough the text, select Strikethrough text\n•\nTo underline text, select Underline\n•\nTo redact text, select Redact Text & Images\n•\nTo copy the text, select copy with formatting\n•\nTo edit the selected text, select Edit\n•"
+    },
+    {
+      "level": "H1",
+      "text": "Using Markup Tool ",
+      "page": 6,
+      "top": 557.5,
+      "sub_content": "1.Open a PDF.\n2.From the Quick actions toolbar, select the Highlight text tool and then move the\ncursor over the text that you want to highlight.\n3.With the Highlight tool selected, you can highlight multiple sections of text by just\ndragging over the text. Once you’re done, deselect the tool.\n4.To add other markups, expand the Highlight tool menu and select the tool for other\nmarkups."
+    },
+    {
+      "level": "H1",
+      "text": "Change the color of the markup ",
+      "page": 7,
+      "top": 254.9,
+      "sub_content": "1.Click the markup.\n2.From the mini toolbar that appears, select the color icon.\n3.From the color palette, select a desired color.\nThe markup appears in the selected color."
+    },
+    {
+      "level": "H1",
+      "text": "Delete The Markup ",
+      "page": 7,
+      "top": 358.5,
+      "sub_content": "To delete the markup, select the markup and then select delete"
+    },
+    {
+      "level": "H1",
+      "text": "Add a comment to the markup ",
+      "page": 7,
+      "top": 425.0,
+      "sub_content": "1.Double-click the markup.\nIt pops open a comment box.\n2.Alternatively, click (Control-click for macOS) on the markup and select the note icon.\nIt opens a comment box.\nPost\n3.Type your message in the comment box and then select ."
+    },
+    {
+      "level": "H1",
+      "text": "Replace text ",
+      "page": 7,
+      "top": 556.1,
+      "sub_content": "Add comment\n1.From the Quick actions toolbar, select\nReplace selected text\n2.Select .\n3.Select the text that you want to replace.\nThe selected text is crossed out.\n4.Double-click the selected text and then type the text to be inserted or added.\nThe insertion caret  appears. To indicate that a new paragraph should be added,\npress Enter, and then close the pop-up note without adding text. The paragraph\ninsertion caret  appears."
+    },
+    {
+      "level": "H1",
+      "text": "Insert text ",
+      "page": 8,
+      "top": 570.6,
+      "sub_content": "1.From the Quick actions toolbar, expand the Comments tool menu and then\nInsert text\nselect .\n2.Click between the words or characters where you want to insert text.\n3.Do any of the following:\nType the text that you want to insert.\n•\nTo indicate that a new paragraph should be added, press Enter, and then close\n•\nthe pop-up note without adding text. The paragraph insertion\ncaret  appears.\nTo indicate that a space should be added, press the spacebar, and then close\n•\nthe pop-up note without adding text. The space insertion\ncaret  appears.\nNote:\nYou can also indicate text edits by using the Select tool to select text, right-click the\nselected text, and then choose a text edit annotation."
+    },
+    {
+      "level": "H1",
+      "text": "Export text edits ",
+      "page": 9,
+      "top": 255.9,
+      "sub_content": "In Acrobat for Windows®, you can export text edits directly to the Microsoft® Word document\nthat the PDF is based on to revise the source document. To use this feature, you must use\nPDFMaker to convert your file from Word to PDF. Before you export your text edits, make\nsure that insertion comments use the exact text, including spaces and paragraph returns, that\nyou want to add. If you add extra instructional words (such as “Add the following:”), these\nwords will have to be deleted manually from the Word document.\nIn Acrobat on Windows®, you can export text edit comments directly to an Autodesk\nAutoCAD document that the PDF is based on to incorporate your edits. To use this feature,\nyou must use PDFMaker in AutoCAD to create the PDF."
+    },
+    {
+      "level": "H1",
+      "text": "Share a PDF for review ",
+      "page": 9,
+      "top": 453.2,
+      "sub_content": "Use the Acrobat  to easily share PDF files for review from your desktop application, the\nAcrobat  web, or Acrobat Reader mobile app. When reviewers click the URL in the email\ninvitation from their computer, they can easily provide their feedback in a browser without\nhaving to sign in or install any additional software.\nYou can use the service to share PDF files for review in one of the following ways:"
+    },
+    {
+      "level": "H1",
+      "text": "Send an anonymous or public link in an email ",
+      "page": 9,
+      "top": 608.4,
+      "sub_content": "An anonymous or public link makes the files accessible to anyone who clicks the link. Follow\nthe steps below to create a review link, and share it using your email client.\n1.Open the PDF in Acrobat.\nShare\n2.Select  in the upper right. You get either of the two options:\nGet linkGet\n: You get this option when a file isn't synced to the cloud. Select\n•\nlink\nto sync the file to the cloud. Once the file is synced, the get link option\nCopy linkCopy link\nchanges to . Select  and share it as desired.\nCopy link\n: You get this option if the file is already synced to the cloud or shared\n•\nwith someone."
+    },
+    {
+      "level": "H1",
+      "text": "Reviewer experience ",
+      "page": 10,
+      "top": 462.5,
+      "sub_content": "The reviewers receive an email invitation with a link to the review PDF. When they select the\nOpen\nlink or the button in the invitation, the PDF opens in a web browser. They can use the\ncommenting tools to add comments to the PDF. They can also use Acrobat Reader or\nAcrobat desktop applications to add comments."
+    },
+    {
+      "level": "H1",
+      "text": "Send personalized invitations for commenting ",
+      "page": 10,
+      "top": 573.7,
+      "sub_content": "1.Open the PDF in Acrobat.\nShare\n2.Select .\nNote:\nThe computer must be connected to the Internet to start a shared review in Acrobat.\n•\nYou can also start a shared review directly from other applications that use PDFMaker,\n•\nAcrobatCreate And Send For Review\nsuch as Microsoft Word. Choose  > .\n3.Enter the email addresses of the recipients or choose from the Address Book.\n4.Enter a message to the recipients (optional)."
+    },
+    {
+      "level": "H2",
+      "text": "Note: ",
+      "page": 10,
+      "top": 167.6,
+      "sub_content": "The computer must be connected to the Internet to start a shared review in Acrobat.\n•\nYou can also start a shared review directly from other applications that use PDFMaker,\n•\nHome Create PDF and share link\nsuch as Microsoft Word. Choose > .\nPeople can comment\n3.By default, the  switch is turned on. To share the file only for\nAnyone can access and comment\nviewing, select  in the Share dialog box, and then\nPeople can comment\nswitch the toggle next to  to turn it off.\n4.The link is created and copied by default. Share the link with other recipients. You can\nalso perform any of the following actions from the right pane:\nAdd People: Share\nSelect , then enter the email addresses of the people you\n•\nwant to share the file with.\nUnshare File: Share.\nSelect  The profile icons of the people you have shared the\n•\nShared with\nfile with are displayed next to . Select the profile icon to open the\nUnshare\nShared with the dialog box. Select  in the lower-right to stop sharing\nthe file with others."
+    },
+    {
+      "level": "H1",
+      "text": "Initiate a review using @mention in a PDF ",
+      "page": 11,
+      "top": 304.2,
+      "sub_content": "Use @mention in your personal commenting notes to start a review. The @mentions includes\nyour organizational contacts and your synced personal contacts list. The moment you use\n@mention in a PDF file, the review mode gets enabled for you. The reviewers get an invitation\nemail with a link to the Document Cloud shared review file."
+    },
+    {
+      "level": "H1",
+      "text": "Reviewer experience ",
+      "page": 11,
+      "top": 510.4,
+      "sub_content": "The reviewers receive an email invitation with a link to the review PDF. When they click the\nOpen\nlink or the button in the invitation, the PDF opens in a web browser. They can use the\ncommenting tools to add comments to the PDF. They can also use Acrobat Reader or\nAcrobat desktop applications to add comments."
+    },
+    {
+      "level": "H1",
+      "text": "Hosting a shared review on SharePoint or Office 365 ",
+      "page": 11,
+      "top": 626.6,
+      "sub_content": "Shared reviews are the most collaborative form of review because participants can read and\nreply to the comments of other participants. Comments from participants are stored in a\nrepository on an internal server. Acrobat synchronizes comments at regular intervals to\ndownload all the latest changes. Reviewers are notified of new comments as they are added,\nand they can see and reply to comments made by other reviewers.\nYou can use your own internal server location, such as a Microsoft SharePoint\nworkspace/subsite, if your recipients work behind a firewall and all have access to a common\nserver."
+    },
+    {
+      "level": "title",
+      "text": "Initiate SharePoint-based shared review ",
+      "page": 13,
+      "top": 77.6,
+      "sub_content": ""
+    },
+    {
+      "level": "title",
+      "text": "using Acrobat ",
+      "page": 13,
+      "top": 107.1,
+      "sub_content": "Before you initiate a review, ensure that you have a SharePoint site and reviewers have write\npermission to your site. Now, to host the shared review, you can do one of the following:\nLet Acrobat automatically create and configure a document library within your SharePoint\n•\nserver’s subsite.\nChoose a subsite and the respective document library that you may have already created and\n•\nconfigured.\nSend for Review\n1.Open the PDF document in Acrobat, and then select  in\nTools\nthe  pane.\nSend for Shared Commenting\n2.Select  in the toolbar.\nAutomatically collect comments on my own internal server\n3.Select  from the\nNext\ndrop-down menu, and then click .\nSharePoint subsite\n4.Choose , and then provide the URL of your subsite on the\nNext\nSharePoint server. Click .\nAcrobat automatically creates and configures a new document library\n(named AcrobatSharedReviews) within your subsite to initiate the shared review.\nNote:If you don't want Acrobat to automatically configure the review, you can\nclick Choose a subsite to select the document library that you have already created and\nconfigured.\n5.Choose distribution method and the way the file should appear when it’s sent, and\nNext\nthen click .\n6.To save this shared review profile for future use, provide a name and then\nNextNext\nclick , or click to use the default.\n7.Enter all your reviewers’ email addresses, make appropriate change to the subject,\nSend\nmessage, and review deadline, and then click ."
+    }
+  ]
+}

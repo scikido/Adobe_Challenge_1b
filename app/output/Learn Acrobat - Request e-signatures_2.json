@@ -1,0 +1,152 @@
+{
+  "title": "Adobe LiveCycle Rights Management  (ALCRM) servers  ",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "What is a digital signature? ",
+      "page": 0,
+      "top": 328.9,
+      "sub_content": "Digital signatures are a secure and efficient way to electronically sign and authenticate\ndocuments, ensuring their authenticity and integrity. By using digital signatures, you can sign\ndocuments quickly and easily, and be confident that they can’t be tampered with or forged."
+    },
+    {
+      "level": "H1",
+      "text": "Why validate a digital signature? ",
+      "page": 0,
+      "top": 432.6,
+      "sub_content": "When you receive a signed document, you may want to validate its signature to verify the\nsigner and the signed content. Depending on how you’ve configured your application,\nvalidation may occur automatically. Signature validity is determined by checking the\nauthenticity of the signature’s digital ID certificate status and document integrity.\nTo verify authenticity, the validator checks if the signer's certificate or its parent certificates are\ntrusted. The validity of the signing certificate is also checked based on the user's Acrobat or\nAcrobat Reader settings.\nTo verify document integrity, the validator checks if the signed content was altered after\nsigning. If changes were made, the verification ensures that the signer allowed the changes."
+    },
+    {
+      "level": "H1",
+      "text": "Set preferences for validating digital signatures ",
+      "page": 1,
+      "top": 493.2,
+      "sub_content": "You can set verification preferences in advance so digital signatures are valid when you open\na PDF and verification details appear with the signature. When Digital Signatures are\nvalidated, an icon appears in the document message bar to indicate the signature status.\nAcrobatPreferences\n1.Select the hamburger menu  (Windows®), or go to  (macOS)> .\nSignatures\n2.In the Preferences dialog box, from under categories, select .\nVerificationDigital SignaturesMore...\n3.From the  box in the  panel, select\n4.In the 'Signature Verification Preferences' dialog that opens, you can control the\nfollowing settings:\nSet automatic validation of signatures\n: With the Verify signatures when the\n•\ndocument is opened check box selected, Acrobat automatically validates all\nsignatures in a PDF when you open the document.\nSet verification behavior:\nThe options specify methods that determine\n•\nwhich plug-in to choose when verifying a signature. The appropriate plug-in\nis often selected automatically. Contact your system administrator about\nspecific plug-in requirements for validating signatures.\nCheck the revocation status of certificates\n: With the Require certificate\n•\nrevocation checking to succeed... checkbox selected, Acrobat checks\ncertificates against a list of excluded certificates during validation. If you\ndeselect the check box, the revocation status for Acrobat Approval\nsignatures is ignored. The revocation status is always checked to certify\nsignatures.\nUse expired timestamps\n: The option is selected by default. It uses the time\n•\nmentioned in the timestamp or embedded in the signature, even if the\nsignature’s certificate has expired. If you deselect the check box, Acrobat\ndiscards expired timestamps.\nSet verification for time\n: You can select the appropriate options under\n•\n'Verification time' to check the time at which the signature was created, to\ncheck the timestamp embedded in the signature, or to check the current\ntime.\nAdd verification information\n: Select appropriate options under 'Verification\n•\ninformation' to add verification information to the signed PDF or to alert the\nuser when the verification information is too large.\nConfigure to trust the root certificates in the Windows® certificate store\n:\n•\nYou can specify whether to trust all root certificates in the Windows®\nCertificates store for:\nValidating signatures\n: Certificates are trusted for Acrobat Approval\n•\nsignature validation.\nValidating certified documents\n: Certificates are trusted for\n•\ncertification signature validation.\nNote:\nSelecting these options can compromise security."
+    },
+    {
+      "level": "H1",
+      "text": "Set the trust level of a certificate ",
+      "page": 3,
+      "top": 448.2,
+      "sub_content": "In Acrobat or Acrobat Reader, the signature of a certified or signed document is valid if you\nand the signer have a trust relationship. The trust level of the certificate indicates the actions\nfor which you trust the signer.\nYou can change the trust settings of certificates to allow specific actions. For example, you can\nchange the settings to enable the dynamic content and embedded JavaScript™ within the\ncertified document.\nAcrobat\n1.Navigate to the hamburger menu  (Windows) or the  menu (macOS)\nPreferencesSignatures\n>  > .\nidentities & Trusted CertificatesMore...\n2.For , select\nTrusted Certificates\n3.From the left panel, select .\nEdit Trust\n4.Select a certificate from the list and then select .\n5.In the Edit Certificate Trust dialog that opens, select any of the following items to\ntrust the certificate:\nUse this certificate as a trusted root\n: A root certificate is an originating\n•\nauthority in a chain of certificate authorities that issued the certificate. By\ntrusting the root certificate, you trust all certificates issued by that certificate\nauthority.\nSigned documents or data\n: It acknowledges the identity of the signer.\n•\nCertified documents\n: It trusts documents in which the author has certified the\n•\ndocument with a signature. You trust the signer for certifying documents, and\nyou accept actions that the certified document takes.\nWhen the 'Certified documents' option is selected, the following options are\navailable:\nDynamic content\n: It allows movies, sound, and other dynamic elements\n•\nto play in a certified document.\nEmbedded high privilege JavaScript™\n: It allows privileged JavaScript™\n•\nembedded in PDF files to run. JavaScript™ files can be used in malicious\nways. It’s prudent to select this option only when necessary on\ncertificates you trust.\nPrivileged system operations\n: It allows Internet connections, cross-\n•\ndomain scripting, silent printing, external-object references, and\nimport/export methodology operations on certified documents.\nNote:Embedded high privilege JavaScript™ Privileged system operations\nAllow and  only\nfor sources that you trust and work closely with. For example, use these options for\nyour employer or service provider.\nOK\n6.Select .\nNote:Signatures\nYou can right-click a signature field in the  panel to do most signature-\nrelated tasks, including adding, clearing, and validating signatures. In some cases, however,\nthe signature field becomes locked after you sign it."
+    },
+    {
+      "level": "H1",
+      "text": "Sign in preview mode for document integrity ",
+      "page": 5,
+      "top": 142.8,
+      "sub_content": "When document integrity is critical for your signature workflow, you can enable 'View\ndocuments in Preview mode', and then sign the document. This feature analyzes the\ndocument for content that may alter the look and feel of the document and suppresses such\ncontent to allow you to view and sign the document in a static and secure state.\nBy signing in preview mode, you can find if the document contains:\nAny dynamic content or external dependencies.\n•\nAny constructs such as form fields, multimedia, or JavaScript™ that may affect its look\n•\nand feel.\nAfter reviewing the report, you can contact the author of the document about the problems\nlisted in the report."
+    },
+    {
+      "level": "H1",
+      "text": "Certify a PDF ",
+      "page": 5,
+      "top": 376.7,
+      "sub_content": "Certifying a PDF means approving its contents and specifying what changes are allowed for\nthe document to remain certified. For example, a government agency creates a form with\nsignature fields and certifies it, allowing users to only change form fields and sign the\ndocument. Removing pages or adding comments will result in losing the certified status.\nA certifying signature can only be applied if the PDF has no other signatures. These signatures\ncan be visible or invisible, and a blue ribbon icon   in the Signatures panel confirms a valid\ncertifying signature. Adding a certifying digital signature requires a digital ID."
+    },
+    {
+      "level": "H1",
+      "text": "Timestamp a document ",
+      "page": 5,
+      "top": 555.1,
+      "sub_content": "Acrobat allows users to add a document timestamp to a PDF without needing an identity-\nbased signature. To timestamp a PDF, a timestamp server is needed. See how to configure a\ntimestamp server.\nA timestamp guarantees the authenticity and existence of a document at a specific time and\ncomplies with ETSI 102 778 PDF Advanced Electronic Signatures (PAdES) standard."
+    },
+    {
+      "level": "H1",
+      "text": "Validate a digital signature ",
+      "page": 5,
+      "top": 688.3,
+      "sub_content": "If the signature status is unknown or unverified, manually validate it to identify the issue and\nfind a potential solution. In case the signature status is invalid, you must contact the signer to\nresolve the issue."
+    },
+    {
+      "level": "title",
+      "text": "Validate all digital signatures ",
+      "page": 7,
+      "top": 77.6,
+      "sub_content": "1.Open the PDF for which you want to validate all digital signatures.\nAll tools\n2.From the global bar in the upper-left, select .\nAll toolsUse a certificateValidate all signature.\n3.From the  pane, select  >\nOK\n4.Select  in the confirmation dialog box. Once all the signatures are validated. You\nget a confirmation message."
+    },
+    {
+      "level": "H1",
+      "text": "View previous versions of a digitally signed document ",
+      "page": 7,
+      "top": 247.1,
+      "sub_content": "Whenever a certificate is used to sign a document, a signed version of the PDF is created and\nsaved along with the original PDF. The saved versions are in an append-only format, meaning\nthe original PDF can’t be modified. The Signatures panel provides access to all digital\nsignatures and their corresponding versions.\nView\nTo view previous versions, open the Signature panel and then select Options  >\nSigned Version\n.\nThe previous version opens as a new PDF, with the version information and the name of the\nsigner in the title bar. To return to the original document, choose the document name from\nthe Windows® menu."
+    },
+    {
+      "level": "H1",
+      "text": "Compare versions of a signed document ",
+      "page": 7,
+      "top": 457.7,
+      "sub_content": "After a document is signed, you can display a list of the changes made to the document after\nthe last version.\nTo compare the previous versions, open the Signatures panel and then select the signature.\nCompare Signed Version To Current Version\nThen, select Options   > .\nOnce you're done, close the temporary document."
+    },
+    {
+      "level": "H1",
+      "text": "Trust a signer’s certificate ",
+      "page": 7,
+      "top": 631.3,
+      "sub_content": "To trust a certificate, it must be added to the user's trusted identity list in the Trusted Identity\nManager. Also, its trust level must be set manually. End users can exchange certificates or add\nthem directly from signed documents and set their trust levels. However, enterprises may\nrequire employees to validate signatures without any manual intervention. Acrobat trusts all\ncertificates that are signed and certified by a trust anchor. Therefore, administrators can\npreconfigure client installations or allow end users to add a trust anchor."
+    },
+    {
+      "level": "H1",
+      "text": "Sign component PDFs and PDF Portfolios ",
+      "page": 8,
+      "top": 135.4,
+      "sub_content": "You can sign component PDFs within a PDF Portfolio, or sign the PDF Portfolio as a whole.\nSigning a component PDF locks the PDF for editing and secures its content. After signing all\nthe component PDFs, you can sign the entire PDF Portfolio to finalize it. Alternatively, you can\nsign the PDF Portfolio as a whole to lock the content of all component PDFs simultaneously.\nTo sign a component PDF, see Signing PDFs. The signed PDF is automatically saved to\n•\nthe PDF Portfolio.\nTo sign a PDF Portfolio as a whole, sign the cover sheet (View > Portfolio > Cover\n•\nSheet). Once you sign the PDF Portfolio as a whole, you can’t add signatures to the\ncomponent documents. However, you can add more signatures to the cover sheet."
+    },
+    {
+      "level": "H1",
+      "text": "Digitally sign on attachments to component PDFs ",
+      "page": 8,
+      "top": 342.6,
+      "sub_content": "You can add signatures to attachments before signing the cover sheet. To do so:\n1.Open the PDF in a separate window.\nOpen file\n2.Right-click the attachment and select .\n3.To view signatures on the PDF Portfolio, navigate to the cover sheet to view the\ndocument message bar and signatures pane."
+    },
+    {
+      "level": "H1",
+      "text": "View signed and certified PDF Portfolios ",
+      "page": 8,
+      "top": 489.4,
+      "sub_content": "A properly signed or certified PDF Portfolio has one or more signatures that approve or certify\nthe PDF Portfolio. The most significant signature appears in a Signature badge in the toolbar.\nDetails of all signatures appear on the cover sheet.\nTo view the name of the organization or person that signed the PDF Portfolio, hover\n•\nthe pointer over the Signature Badge.\nTo view details about the signature that appears on the Signature Badge, click\n•\nthe Signature Badge. The cover sheet and the Signatures pane on the left are open\nwith details.\nIf the PDF Portfolio approval or certification is invalid or has a problem, the Signature\nBadge shows a warning icon. To view an explanation of the problem, hover the pointer over\na Signature Badge with a warning icon. Different warning icons appear for different situations.\nFor a list and explanation of each warning, see the DigSig Admin Guide."
+    },
+    {
+      "level": "H1",
+      "text": "XML data signatures ",
+      "page": 9,
+      "top": 120.7,
+      "sub_content": "Acrobat and Acrobat Reader support XML data signatures that are used to sign data in XML\nForms Architectures (XFA) forms. The form author provides XML signing, validating, or\nclearing instructions for form events, such as button click, file save, or submit.\nXML data signatures conform to the W3C XML-Signature standard. Like PDF digital\nsignatures, XML digital signatures ensure integrity, authentication, and non-repudiation in\ndocuments.\nHowever, PDF signatures have multiple data verification states. Some states are called when a\nuser alters the PDF-signed content. In contrast, XML signatures only have two data verification\nstates, valid and invalid. The invalid state is called when a user alters the XML-signed content."
+    },
+    {
+      "level": "H1",
+      "text": "Establish long-term signature validation ",
+      "page": 9,
+      "top": 328.0,
+      "sub_content": "Long-term signature validation allows you to verify the signature's validity long after the\ndocument was signed. To achieve this, all the necessary elements for signature validation\nmust be embedded in the signed PDF. These elements can be embedded during the\ndocument signing process or added afterward.\nIf certain information is not included in the PDF, the signature can only be validated for a\nlimited time because certificates related to the signature eventually expire or are revoked.\nWhen a certificate expires, the issuing authority is no longer responsible for providing\nrevocation status, rendering the signature unverifiable.\nThe necessary elements for signature validity include the signing certificate chain, certificate\nrevocation status, and possibly a timestamp. If these elements are embedded during signing,\nthe signature can be validated without requiring external resources.\nAcrobat and Acrobat Reader can embed the necessary elements if available, and the PDF\ncreator must enable usage rights for Acrobat Reader users by going to the hamburger\nAcrobatSave as otherAcrobat Reader\nmenu  (Windows) or the  menu (macOS) >  >\nextended PDF\n.\nNote:\nEmbedding timestamp information requires an appropriately configured timestamp\nserver. In addition, the signature validation time must be set to Secure Time by navigating\nPreferencesSecurityAdvanced PreferencesVerification\nto  >  >  >  tab.\nCDS certificates can add verification information, such as revocation and timestamp into the\ndocument without requiring any configuration from the signer. However, the signer must be\nonline to fetch the appropriate information."
+    },
+    {
+      "level": "H1",
+      "text": "Add verification information at signing ",
+      "page": 10,
+      "top": 98.4,
+      "sub_content": ""
+    },
+    {
+      "level": "H1",
+      "text": "Add verification information after signing ",
+      "page": 10,
+      "top": 285.3,
+      "sub_content": "In certain workflows, signature validation information may be unavailable during the signing\nbut can be obtained later. For instance, a company official may sign a contract on a laptop\nwhile traveling without internet access. When internet access is later available, anyone\nvalidating the signature can add timestamping and revocation information to the PDF.\nSubsequent signature validations can also make use of this information."
+    },
+    {
+      "level": "H2",
+      "text": "To add verification information while signing: ",
+      "page": 10,
+      "top": 126.6,
+      "sub_content": "1.Ensure that your computer can connect to the appropriate network resources.\nPreferencesSignaturesCreation & AppearancesMore\n2.Go to  >  > :  and make sure that\nInclude signature’s revocation status\nthe  option is selected.\n3.Sign the PDF.\nIf all the elements of the certificate chain are available, the information is added to the PDF\nautomatically. If a timestamp server has been configured, the timestamp is also added."
+    },
+    {
+      "level": "H2",
+      "text": "To add verification information after signing: ",
+      "page": 10,
+      "top": 394.8,
+      "sub_content": "1.Ensure that your computer can connect to the appropriate network resources, and\nthen right-click the signature in the PDF.\nAdd Verification Information\n2.Select .\nInformation and methods used to include this long-term validation (LTV) information in the\nPDF comply with Part 4 of the ETSI 102 778 PDF Advanced Electronic Signatures (PAdES)\nstandard.\nThe command is unavailable if the signature is invalid, or is signed with a self-signed\ncertificate. The command is also unavailable in case the verification time equals the current\ntime."
+    }
+  ]
+}
