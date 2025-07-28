@@ -5,6 +5,8 @@
 This project is designed to process a collection of PDF documents, extract their structural outlines, and identify the most relevant sections based on a user-defined persona and job-to-be-done. It then generates concise, persona- and task-specific summaries of these sections using an LLM (TinyLlama via Ollama). The system is modular, leveraging NLP, ML, and PDF parsing techniques to automate knowledge extraction for use cases like travel planning, research, or content curation.
 
 ---
+Working Diagram:
+<img width="685" height="429" alt="Screenshot 2025-07-28 at 9 40 20 PM" src="https://github.com/user-attachments/assets/a3692238-f524-4d10-9a52-494c5774439f" />
 
 ## Approach
 
