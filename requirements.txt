@@ -1,9 +1,7 @@
-sentence-transformers
 scikit-learn
 numpy
 pdfplumber
-torch
-transformers
-tokenizers
 nltk
+pandas
 ollama
+requests
