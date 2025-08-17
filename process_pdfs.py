@@ -565,10 +565,17 @@ def headings_to_json_outline(headings):
 
 
 
-def process_pdf_files():
+def process_pdf_files(input_dir=None, output_dir=None):
     """Process all PDF files in the input directory."""
-    input_dir = Path("./app/input")
-    output_dir = Path("./app/output")
+    if input_dir is None:
+        input_dir = Path("./app/input")
+    else:
+        input_dir = Path(input_dir)
+        
+    if output_dir is None:
+        output_dir = Path("./app/output")
+    else:
+        output_dir = Path(output_dir)
     
     # Ensure output directory exists
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -610,7 +617,7 @@ def process_pdf_files():
             
             # Save output
             output_file = output_dir / f"{pdf_file.stem}.json"
-            with open(output_file, 'w', encoding='utf-8') as f:
+            with open(output_file, "w", encoding="utf-8") as f:
                 json.dump(result, f, indent=2, ensure_ascii=False)
             
             file_processing_time = time.time() - file_start_time
@@ -625,12 +632,13 @@ def process_pdf_files():
                 "outline": []
             }
             output_file = output_dir / f"{pdf_file.stem}.json"
-            with open(output_file, 'w', encoding='utf-8') as f:
+            with open(output_file, "w", encoding="utf-8") as f:
                 json.dump(error_output, f, indent=2)
     
     total_processing_time = time.time() - total_start_time
     logger.info(f"Completed processing {len(pdf_files)} PDF files in {total_processing_time:.2f} seconds")
-    logger.info(f"Average time per PDF: {total_processing_time/len(pdf_files):.2f} seconds")
+    if len(pdf_files) > 0:
+        logger.info(f"Average time per PDF: {total_processing_time/len(pdf_files):.2f} seconds")
 
 
 

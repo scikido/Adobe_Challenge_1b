@@ -28,14 +28,14 @@ except LookupError:
     nltk.download('stopwords', quiet=True)
     nltk.download('wordnet', quiet=True)
 
-def find_relevant_sections(pdf_outline: Dict[str, Any], job: str, persona: str, 
+def find_relevant_sections(pdf_outline: Dict[str, Any], query_text: str, persona: str, 
                           max_sections: int = 10, min_relevance_score: float = 0.05) -> List[Dict[str, Any]]:
     """
-    Find relevant sections from a PDF outline using NLP and ML techniques.
+    Find relevant sections from a PDF outline using NLP and ML techniques based on text similarity.
     
     Args:
         pdf_outline: Dictionary with 'title' and 'outline' keys
-        job: Job description string
+        query_text: Text to find similar content for
         persona: Persona string (e.g., 'Travel Planner', 'Software Tester')
         max_sections: Maximum number of sections to return
         min_relevance_score: Minimum relevance score threshold
@@ -83,10 +83,10 @@ def find_relevant_sections(pdf_outline: Dict[str, Any], job: str, persona: str,
         
         return ' '.join(processed_tokens)
     
-    def create_context_query(persona: str, job: str, pdf_title: str = "") -> str:
+    def create_context_query(persona: str, query_text: str, pdf_title: str = "") -> str:
         """Create a comprehensive context query for matching."""
-        # Combine persona, job, and PDF title for better context
-        context_parts = [persona, job]
+        # Combine persona, query text, and PDF title for better context
+        context_parts = [persona, query_text]
         if pdf_title:
             context_parts.append(pdf_title)
         
@@ -102,7 +102,7 @@ def find_relevant_sections(pdf_outline: Dict[str, Any], job: str, persona: str,
     
     processed_sections = [preprocess_text(text) for text in section_texts]
     pdf_title = pdf_outline.get('title', '')
-    context_query = create_context_query(persona, job, pdf_title)
+    context_query = create_context_query(persona, query_text, pdf_title)
     processed_query = preprocess_text(context_query)
     
     # Filter out empty processed sections but be more lenient
@@ -159,16 +159,22 @@ def find_relevant_sections(pdf_outline: Dict[str, Any], job: str, persona: str,
         
         
         if len(valid_sections) > 3 and tfidf_matrix.shape[1] > 10:
-            n_components = min(50, min(tfidf_matrix.shape) - 1)
-            svd = TruncatedSVD(n_components=n_components, random_state=42)
-            lsa_matrix = svd.fit_transform(tfidf_matrix)
-            
-            query_lsa = lsa_matrix[0:1]
-            sections_lsa = lsa_matrix[1:]
-            lsa_similarities = cosine_similarity(query_lsa, sections_lsa).flatten()
-            
-            # Combine TF-IDF and LSA similarities (weighted average)
-            similarities = 0.7 * similarities + 0.3 * lsa_similarities
+            try:
+                n_components = min(50, min(tfidf_matrix.shape) - 1)
+                if n_components > 0:  # Safety check
+                    svd = TruncatedSVD(n_components=n_components, random_state=42)
+                    lsa_matrix = svd.fit_transform(tfidf_matrix)
+                    
+                    query_lsa = lsa_matrix[0:1]
+                    sections_lsa = lsa_matrix[1:]
+                    lsa_similarities = cosine_similarity(query_lsa, sections_lsa).flatten()
+                    
+                    # Combine TF-IDF and LSA similarities (weighted average)
+                    similarities = 0.7 * similarities + 0.3 * lsa_similarities
+            except Exception as e:
+                print(f"LSA processing failed, using TF-IDF only: {e}")
+                # Continue with just TF-IDF similarities
+                pass
     
     except Exception as e:
         print(f"Error in TF-IDF processing: {e}")
@@ -177,7 +183,7 @@ def find_relevant_sections(pdf_outline: Dict[str, Any], job: str, persona: str,
     
     # Apply additional heuristic boosts
     boosted_similarities = apply_heuristic_boosts(
-        similarities, valid_sections, persona, job, processed_query
+        similarities, valid_sections, persona, query_text, processed_query
     )
     
     # Ensure we always return some results if sections exist
@@ -219,13 +225,20 @@ def find_relevant_sections(pdf_outline: Dict[str, Any], job: str, persona: str,
     return scored_sections[:max_sections]
 
 def apply_heuristic_boosts(similarities: np.ndarray, sections: List[Dict], 
-                          persona: str, job: str, processed_query: str) -> np.ndarray:
+                          persona: str, query_text: str, processed_query: str) -> np.ndarray:
     """Apply heuristic boosts to similarity scores based on section characteristics."""
     boosted_similarities = similarities.copy()
+    
+    # Safety check for empty similarities array
+    if len(boosted_similarities) == 0:
+        return boosted_similarities
     
     query_terms = set(processed_query.split())
     
     for i, section in enumerate(sections):
+        if i >= len(boosted_similarities):  # Safety check
+            break
+            
         section_text_lower = section.get('text', '').lower()
         section_level = section.get('level', '')
         
@@ -270,15 +283,15 @@ def fallback_keyword_matching(sections: List[Dict], processed_query: str,
         section_text = section.get('text', '').lower()
         section_terms = set(section_text.split())
         
-        # Calculate multiple similarity metrics
+        # Calculate multiple similarity metrics with safety checks
         intersection = len(query_terms.intersection(section_terms))
         union = len(query_terms.union(section_terms))
         
-        # Jaccard similarity
+        # Jaccard similarity with safety check
         jaccard_similarity = intersection / union if union > 0 else 0.0
         
-        # Simple overlap similarity
-        overlap_similarity = intersection / len(query_terms) if query_terms else 0.0
+        # Simple overlap similarity with safety check
+        overlap_similarity = intersection / len(query_terms) if query_terms and len(query_terms) > 0 else 0.0
         
         # Combine similarities
         similarity = max(jaccard_similarity, overlap_similarity * 0.8)
@@ -309,7 +322,21 @@ def fallback_keyword_matching(sections: List[Dict], processed_query: str,
 
 
 
-def aggregate_relevant_sections(output_dir, job, persona, input_documents, max_sections=5, max_subsections=5):
+def aggregate_relevant_sections(output_dir, query_text, persona, input_documents, max_sections=5, max_subsections=5):
+    """
+    Aggregate relevant sections from multiple PDFs based on text similarity to a query.
+    
+    Args:
+        output_dir: Directory containing processed PDF outlines
+        query_text: Text to find similar content for
+        persona: Persona context for the search
+        input_documents: List of input document filenames
+        max_sections: Maximum number of sections to return
+        max_subsections: Maximum number of subsections to analyze
+    
+    Returns:
+        Dictionary containing aggregated results with metadata, extracted sections, and summaries
+    """
     all_sections = []
     all_subsections = []
     doc_to_sections = {}
@@ -323,7 +350,7 @@ def aggregate_relevant_sections(output_dir, job, persona, input_documents, max_s
             with open(file_path, "r", encoding="utf-8") as f:
                 pdf_outline = json.load(f)
 
-            relevant_sections = find_relevant_sections(pdf_outline, job, persona, max_sections=10)
+            relevant_sections = find_relevant_sections(pdf_outline, query_text, persona, max_sections=10)
             docname = filename.replace(".json", ".pdf")
             doc_to_sections[docname] = relevant_sections
 
@@ -349,7 +376,7 @@ def aggregate_relevant_sections(output_dir, job, persona, input_documents, max_s
 
     # Subsection analysis: take top N sections and extract a "refined_text" (here, just use the text for demo)
     for sec in section_candidates[:max_subsections]:
-        offline_summary = chat_offline(persona, job, sec['section']['section']['sub_content'])
+        offline_summary = chat_offline(persona, query_text, sec['section']['section']['sub_content'])
         all_subsections.append({
             "document": sec["document"],
             "refined_text": offline_summary,  # Replace with actual refined text logic if needed
@@ -360,27 +387,26 @@ def aggregate_relevant_sections(output_dir, job, persona, input_documents, max_s
         "metadata": {
             "input_documents": input_documents,
             "persona": persona,
-            "job_to_be_done": job,
+            "query_text": query_text,
             "processing_timestamp": datetime.now().isoformat()
         },
         "extracted_sections": extracted_sections,
         "subsection_analysis": all_subsections
     }
+    print(result)
     return result
 
 
 
 if __name__ == "__main__":
-    process_pdf_files()
-
     with open("challenge1b_input.json", "r", encoding="utf-8") as f:
         input_data = json.load(f)
-        job = input_data["job_to_be_done"]["task"]
+        query_text = input_data["query_text"]["text"]  # Changed from job_to_be_done.task
         persona = input_data["persona"]["role"]
         input_documents = [doc["filename"] for doc in input_data["documents"]]
 
     output_dir = "./app/output"
-    result = aggregate_relevant_sections(output_dir, job, persona, input_documents)
+    result = aggregate_relevant_sections(output_dir, query_text, persona, input_documents)
     
     with open("challenge1b_output.json", "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)

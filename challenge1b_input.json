@@ -69,7 +69,7 @@
     "persona": {
         "role": "HR professional"
     },
-    "job_to_be_done": {
-        "task": "Create and manage fillable forms for onboarding and compliance."
+    "query_text": {
+        "text": "You can quickly share a link to a PDF document with others for viewing or commenting. The document shared as a link opens in any browser on any device. The document is stored securely in Adobe cloud storage. Recipients get an email with a link, and they can click the link to view and comment on the document in a browser; no sign-in is required. "
     }
 }
